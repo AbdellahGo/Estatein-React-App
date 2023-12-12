@@ -1,13 +1,75 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: Urbanist;
+  background-color: #141414;
+  height: 1000vh;
 }
+.navigation-bar,
+.navigation-bar * {
+  /* outline: 1px dotted red; */
+}
+
+nav .navigation-bar ul a.active,
+nav .navigation-bar ul a:hover {
+  border: 1px solid #262626;
+  padding: 14px 24px;
+  background-color: #141414;
+  transition-delay: 0.2s;
+
+}
+
+@media screen and (max-width: 1919.98px) and (min-width: 768px) {
+  nav .navigation-bar ul a.active,
+  nav .navigation-bar ul a:hover {
+    padding: 12px 20px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+    nav .navigation-bar ul a.active,
+    nav .navigation-bar ul a:hover {
+      padding: 15px;
+    }
+  }
+  
+.move-to-top-anime {
+  animation-name: moveToTop;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+@keyframes moveToTop {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -o-transform: translateY(100px);
+}
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+}
+
+.move-to-bottom-anime {
+  animation-name: moveToBottom;
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+}
+
