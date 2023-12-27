@@ -1,2 +1,5 @@
-export const container = 'xxl:w-1885 xl:w-1405 lg:w-940 md:w-720 w-full mx-auto'
+export const container = 'xxl:w-1885 xl:w-1420 lg:w-940 md:w-720 w-full mx-auto'
 export const padding_x = 'xxl:px-162 xl:px-80 md:px-40 px-16'
+export const margin_top = 'xxl:mt-150 xl:mt-120 mt-80'
+export const paragraph_classes = 'xxl:text-18 md:text-16 text-14 text-grey-60 font-medium'
+export const header_button_styles = 'xxl:w-[16%] xl:w-[17%] lg:w-[35%] md:w-[63%]'
