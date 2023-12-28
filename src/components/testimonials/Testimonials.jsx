@@ -59,7 +59,7 @@ const Testimonials = () => {
     }, [initShowingItems])
 
     return (
-        <div className={`testimonials ${margin_top}  ${container} ${padding_x}`}>
+        <div className={`testimonials ${margin_top}  ${container} ${padding_x}`} id='testimonials'>
             <SectionHeader
                 title={title}
                 description={description}

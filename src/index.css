@@ -15,10 +15,11 @@ body {
   background-color: #141414;
   height: 1000vh;
 }
-.cta,
-.cta * {
+.footer,
+.footer * {
   /* outline: 1px dotted red; */
 }
+
 
 /* ? navBar component style */
 nav .navigation-bar ul a.active,
@@ -164,4 +165,18 @@ nav .navigation-bar ul a:hover {
   -moz-transform: rotate(40deg);
   -ms-transform: rotate(40deg);
   -o-transform: rotate(40deg);
+}
+
+
+.footer a:hover {
+  transition:transform 0.3s;
+  transform: translateX(-10px);
+  -webkit-transform: translateX(-10px);
+  -moz-transform: translateX(-10px);
+  -ms-transform: translateX(-10px);
+  -o-transform: translateX(-10px);
+  -webkit-transition:transform 0.3s;
+  -moz-transition:transform 0.3s;
+  -ms-transition:transform 0.3s;
+  -o-transition:transform 0.3s;
 }

@@ -7,12 +7,12 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path='/' element={<RootLayout />}>
-        <Route index element={<Home />} />
-        <Route path='/about' element={<AboutUs />} />
-        <Route path='/properties' element={<Properties />} />
-        <Route path='/services' element={<Services />} />
-        <Route path='/contact' element={<ContactUs />} />
-        <Route path='/property-details/:id' element={<PropertyDetails />} />
+          <Route index element={<Home />} />
+          <Route path='about' element={<AboutUs />} />
+          <Route path='properties' element={<Properties />} />
+          <Route path='services' element={<Services />} />
+          <Route path='contact' element={<ContactUs />} />
+          <Route path='property-details/:id' element={<PropertyDetails />} />
       </Route>
     )
   )

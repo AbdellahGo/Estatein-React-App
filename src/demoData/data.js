@@ -1,4 +1,4 @@
-import { money, sun, building, shop, bed, bathroom, villa, Profile1, Profile2, Profile3, stareRating } from '../assets'
+import { money, sun, building, shop, bed, bathroom, villa, Profile1, Profile2, Profile3, stareRating, facebook, twitter, linkedin, youtube } from '../assets'
 
 export const pagesLinks = [
     {
@@ -124,7 +124,7 @@ export const propertiesDetails = {
                 "https://storage.sub-ca.incomrealestate.com/65891b6e0a9aec47a32e78c7.jpeg?height=7969.000118747354",
                 "https://storage.sub-ca.incomrealestate.com/65891b6f89e818472917f66c.jpeg?height=7969.000118747354"
             ]
-        },
+        },  
         {
             "id": 2,
             "propertyArea": "500-599",
@@ -984,5 +984,132 @@ export const FAQDetails = {
 export const CTADetails = {
     title: 'Start Your Real Estate Journey Today',
     description: "Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance."
-    
+
+}
+
+export const footerData = {
+    pagesLinks: [
+        {page: 'Home', pageLink: '/'},
+        {page: 'About', pageLink: 'about'},
+        {page: 'Properties', pageLink: 'properties'},
+        {page: 'Services', pageLink: 'services'},
+        {page: 'Contact', pageLink: 'contact'}
+    ],
+    copyright: {
+        text1: '@2023 Estatein. All Rights Reserved. programmed by: AbdellahGX',
+        text2: 'Terms & Conditions',
+        socialMedia: [
+            {id: 1, socialLink: 'https://www.facebook.com/profile.php?id=100053501469803', icon: facebook},
+            {id: 2, socialLink: 'https://ae.linkedin.com/', icon: linkedin},
+            {id: 3, socialLink: 'https://twitter.com/AXGflash', icon: twitter},
+            {id: 4, socialLink: 'https://www.youtube.com/', icon: youtube},
+        ]
+    },
+    links: [
+        [
+            {
+                id: 1,
+                content: 'Hero Section',
+                link: 'hero_section'
+            },
+            {
+                id: 2,
+                content: 'Features',
+                link: 'features'
+            },
+            {
+                id: 3,
+                content: 'Properties',
+                link: 'properties'
+            },
+            {
+                id: 4,
+                content: 'Testimonials',
+                link: 'testimonials'
+            },
+            {
+                id: 5,
+                content: "FAQ's",
+                link: 'faq'
+            },
+        ],
+        [
+            {
+                id: 1,
+                content: 'Our Story',
+                link: 'our_story'
+            },
+            {
+                id: 2,
+                content: 'Our Works',
+                link: 'our_works'
+            },
+            {
+                id: 3,
+                content: 'How It Works',
+                link: 'how_it_works'
+            },
+            {
+                id: 4,
+                content: 'Our Team',
+                link: 'our_team'
+            },
+            {
+                id: 5,
+                content: "Our Clients",
+                link: 'our_clients'
+            },
+        ],
+        [
+            {
+                id: 1,
+                content: 'Portfolio',
+                link: 'portfolio'
+            },
+            {
+                id: 2,
+                content: 'Categories',
+                link: 'categories'
+            },
+        ],
+        [
+            {
+                id: 1,
+                content: 'Valuation Mastery',
+                link: 'valuation_mastery'
+            },
+            {
+                id: 2,
+                content: 'Strategic Marketing',
+                link: 'strategic_marketing'
+            },
+            {
+                id: 3,
+                content: 'Negotiation Wizardry',
+                link: 'negotiation_wizardry'
+            },
+            {
+                id: 4,
+                content: 'Closing Success',
+                link: 'closing_success'
+            },
+            {
+                id: 5,
+                content: "Property Management",
+                link: 'property_management'
+            },
+        ],
+        [
+            {
+                id: 1,
+                content: 'Contact Form',
+                link: 'contact_form'
+            },
+            {
+                id: 2,
+                content: 'Our Offices',
+                link: 'our_offices'
+            },
+        ],
+    ]
 }

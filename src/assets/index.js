@@ -25,9 +25,16 @@ import Profile3 from './testimonials-users/Profile3.png'
 import stareRating from './testimonials-users/stareRating.png'
 import boxesLift from './boxesLift.png'
 import boxesRight from './boxesRight.png'
+import facebook from './facebook.png'
+import twitter from './twitter.png'
+import linkedin from './linkedin.png'
+import youtube from './youtube.png'
+import send from './send.png'
+import message from './message.png'
 
 export {
     groupLines, squares, desktopLogo, xMark, arrowRightTop, building, money, shop, buildings, sun, stars,
     bigGroupLines, laptopLogo, menu, mobileLogo, arrowTopRightGrey, arrowDisabled, arrowActive, bathroom, bed, villa,
-    Profile1, Profile2, Profile3, stareRating, boxesLift, boxesRight
+    Profile1, Profile2, Profile3, stareRating, boxesLift, boxesRight, facebook, twitter, linkedin, youtube,
+    send, message
 }

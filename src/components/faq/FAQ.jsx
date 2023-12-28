@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import SectionHeader from '../sectionHeader/SectionHeader'
 import { container, margin_top, padding_x } from '../../classes'
 import HorizontalScrollBar from '../horizontalScrollBar/HorizontalScrollBar'
-import {findRest, handleMediaChange} from '../../utils/utils'
+import { findRest, handleMediaChange } from '../../utils/utils'
 import FAQList from '../faqList/FAQList'
 
 
@@ -58,25 +58,25 @@ const FAQ = () => {
   }, [initShowingItems])
 
   return (
-<div className={`faq ${margin_top} ${container} ${padding_x}`}>
-            <SectionHeader
-                title={title}
-                description={description}
-            />
-            <HorizontalScrollBar
-                slidLeft={slidLeft}
-                slidRight={slidRight}
-                initNumberShowingItems={initNumberShowingItems}
-                initShowingItems={initShowingItems}
-                listItemsLength={listItemsLength}
-                component={
-                    <FAQList
-                        faqContainer={FAQContainer}
-                        content={faqList.slice(range, initShowingItems)}
-                    />
-                }
-            />
-        </div>
+    <div className={`faq ${margin_top} ${container} ${padding_x}`} id='faq'>
+      <SectionHeader
+        title={title}
+        description={description}
+      />
+      <HorizontalScrollBar
+        slidLeft={slidLeft}
+        slidRight={slidRight}
+        initNumberShowingItems={initNumberShowingItems}
+        initShowingItems={initShowingItems}
+        listItemsLength={listItemsLength}
+        component={
+          <FAQList
+            faqContainer={FAQContainer}
+            content={faqList.slice(range, initShowingItems)}
+          />
+        }
+      />
+    </div>
   )
 }
 

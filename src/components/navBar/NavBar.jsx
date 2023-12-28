@@ -25,7 +25,7 @@ const NavBar = ({ setNavBarHeight }) => {
   }
   // ? change logo Menu When the screen size change
   const handleMediaChange = () => {
-    const isDesktop = window.matchMedia('(min-width: 1920px)').matches;
+    const isDesktop = window.matchMedia('(min-width: 1440px)').matches;
     const isLaptop = window.matchMedia('(min-width: 768px)').matches;
     const isMobile = window.matchMedia('(max-width: 767.98px)').matches;
     const navBarHeight = navBar.current.offsetHeight

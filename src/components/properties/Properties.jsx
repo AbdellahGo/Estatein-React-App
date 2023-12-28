@@ -60,7 +60,7 @@ const Properties = () => {
 
 
     return (
-        <div className={`xxl:mt-115 xl:mt-115 mt-80 ${container} ${padding_x}`}>
+        <div className={`xxl:mt-115 xl:mt-115 mt-80 ${container} ${padding_x}`} id='properties'>
             <SectionHeader
                 title={title}
                 description={description}

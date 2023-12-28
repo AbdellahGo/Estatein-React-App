@@ -12,7 +12,7 @@ const HeroSection = () => {
   const { title, description, stats, buttons, services } = heroSectionData
   const circleText = '✨Discover Your Dream Property'
   return (
-    <div className={`hero-section ${container} xxl:mt-[35px] xl:mt-0 md:mt-30 mt-40 Mmd:px-16 `}>
+    <div className={`hero-section ${container} xxl:mt-[35px] xl:mt-0 md:mt-30 mt-40 Mmd:px-16 `} id='hero_section'>
       <div className='flex lg:flex-row flex-col-reverse  xxl:gap-80 xl:gap-60 lg:gap-40 items-center overflow-hidden'>
         <div className='slide-in-left lg:w-[50%] w-full xxl:pl-162 xl:pl-80 lg:pl-40 flex flex-col justify-center items-start xxl:gap-60 xl:gap-50 lg:gap-20 gap-40 self-stretch
           Mlg:mt-[56px]'>
