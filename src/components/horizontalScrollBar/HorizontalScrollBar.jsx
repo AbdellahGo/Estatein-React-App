@@ -1,11 +1,12 @@
 import { arrowDisabled, arrowActive } from '../../assets'
+import { margin_top2 } from '../../classes';
 import Button from '../button/Button';
 import './styles.css'
 
 
 const HorizontalScrollBar = ({ component, slidLeft, initNumberShowingItems, slidRight, initShowingItems, listItemsLength, link, linkContent, buttonStyles }) => {
     return (
-        <div className='horizontal-scroll-bar xxl:mt-80 md:mt-60 mt-40 relative'>
+        <div className={`horizontal-scroll-bar ${margin_top2} relative`}>
             <div className='overflow-hidden'>
                 {component}
             </div>

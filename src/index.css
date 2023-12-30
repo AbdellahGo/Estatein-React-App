@@ -15,11 +15,23 @@ body {
   background-color: #141414;
   height: 1000vh;
 }
-.footer,
-.footer * {
+.our-clients,
+.our-clients * {
   /* outline: 1px dotted red; */
 }
 
+
+.left-top-purple-gradient {
+  background: linear-gradient(121deg, #703BF7 -49.01%, rgba(112, 59, 247, 0.00) 13.65%);
+}
+
+.grey-box-shadow {
+  box-shadow: 0px 0px 0px 8px #191919;
+}
+
+.grey-bg-gradient {
+  background: linear-gradient(96deg, #262626 -26.82%, rgba(38, 38, 38, 0.00) 40.46%);
+}
 
 /* ? navBar component style */
 nav .navigation-bar ul a.active,

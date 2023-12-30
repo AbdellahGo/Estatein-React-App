@@ -1,25 +1,24 @@
 import React, { useEffect, useRef, useState } from 'react'
 import SectionHeader from '../sectionHeader/SectionHeader'
-import { container, padding_x, margin_top } from '../../classes'
-import { testimonialsDetails } from '../../demoData/data'
+import { container, margin_top, padding_x } from '../../classes'
 import HorizontalScrollBar from '../horizontalScrollBar/HorizontalScrollBar'
-import TestimonialsList from '../testimonialsList/TestimonialsList'
-import {findRest, handleMediaChange} from '../../utils/utils'
+import { findRest, handleMediaChange } from '../../utils/utils'
+import OurClientsList from '../ourClientsList/OurClientsList'
+import { ourClientsData } from '../../demoData/data'
 
-
-const Testimonials = () => {
-    const { title, description, testimonialsList } = testimonialsDetails
+const OurClients = () => {
+    const { title, description, ourClientsList } = ourClientsData
     const [range, setRange] = useState(0)
     const [finalRest, setFinalRest] = useState(null)
-    const [initNumberShowingItems, setInitNumberShowingItems] = useState(3)
+    const [initNumberShowingItems, setInitNumberShowingItems] = useState(2)
     const [initShowingItems, setInitShowingItems] = useState(initNumberShowingItems)
-    const testimonialsContainer = useRef(null)
-    const listItemsLength = testimonialsList.length
-    const restOfListItems = testimonialsList.slice(initShowingItems).length
+    const ourClientsContainer = useRef(null)
+    const listItemsLength = ourClientsList.length
+    const restOfListItems = ourClientsList.slice(initShowingItems).length
 
     const slidLeft = () => {
         if (initShowingItems > initNumberShowingItems) {
-            testimonialsContainer.current.classList.add('slid-left')
+            ourClientsContainer.current.classList.add('slid-left')
             if (finalRest > restOfListItems) {
                 setInitShowingItems(prev => prev = prev - finalRest)
             } else {
@@ -28,13 +27,13 @@ const Testimonials = () => {
             setRange(prev => prev = prev - initNumberShowingItems)
         }
         setTimeout(() => {
-            testimonialsContainer.current.classList.remove('slid-left')
+            ourClientsContainer.current.classList.remove('slid-left')
         }, 500)
     }
 
     const slidRight = () => {
         if (listItemsLength > initShowingItems) {
-            testimonialsContainer.current.classList.add('slid-right')
+            ourClientsContainer.current.classList.add('slid-right')
             if (initNumberShowingItems > restOfListItems) {
                 setInitShowingItems(prev => prev = prev + restOfListItems)
             } else {
@@ -43,23 +42,22 @@ const Testimonials = () => {
             setRange(initShowingItems)
         }
         setTimeout(() => {
-            testimonialsContainer.current.classList.remove('slid-right')
+            ourClientsContainer.current.classList.remove('slid-right')
         }, 500)
     }
 
-
     useEffect(() => {
-        window.addEventListener('resize', () => handleMediaChange(setInitNumberShowingItems, setInitShowingItems,  setRange, 1, 2, 3));
-        handleMediaChange(setInitNumberShowingItems, setInitShowingItems,  setRange, 1, 2, 3);
+        window.addEventListener('resize', () => handleMediaChange(setInitNumberShowingItems, setInitShowingItems, setRange, 1, 2, 2));
+        handleMediaChange(setInitNumberShowingItems, setInitShowingItems, setRange, 1, 2, 2);
         return () => window.removeEventListener('resize', handleMediaChange);
     }, []);
 
     useEffect(() => {
-        findRest(initNumberShowingItems, listItemsLength, testimonialsList, setFinalRest)
+        findRest(initNumberShowingItems, listItemsLength, ourClientsList, setFinalRest)
     }, [initShowingItems])
 
     return (
-        <div className={`testimonials ${margin_top}  ${container} ${padding_x}`} id='testimonials'>
+        <div className={`our-clients ${margin_top} ${container} ${padding_x}`} id='our_clients'>
             <SectionHeader
                 title={title}
                 description={description}
@@ -71,9 +69,9 @@ const Testimonials = () => {
                 initShowingItems={initShowingItems}
                 listItemsLength={listItemsLength}
                 component={
-                    <TestimonialsList
-                        testimonialsContainer={testimonialsContainer}
-                        content={testimonialsList.slice(range, initShowingItems)}
+                    <OurClientsList
+                        ourClientsContainer={ourClientsContainer}
+                        content={ourClientsList.slice(range, initShowingItems)}
                     />
                 }
             />
@@ -81,5 +79,4 @@ const Testimonials = () => {
     )
 }
 
-export default Testimonials
-
+export default OurClients

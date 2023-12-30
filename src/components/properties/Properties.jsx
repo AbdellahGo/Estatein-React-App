@@ -49,8 +49,8 @@ const Properties = () => {
 
      
     useEffect(() => {
-        window.addEventListener('resize', () => handleMediaChange(setInitNumberShowingItems, setInitShowingItems, setRange));
-        handleMediaChange( setInitNumberShowingItems, setInitShowingItems, setRange);
+        window.addEventListener('resize', () => handleMediaChange(setInitNumberShowingItems, setInitShowingItems, setRange, 1, 2, 3));
+        handleMediaChange( setInitNumberShowingItems, setInitShowingItems, setRange, 1, 2, 3);
         return () => window.removeEventListener('resize', handleMediaChange);
     }, []);
     useEffect(() => {

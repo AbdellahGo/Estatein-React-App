@@ -31,10 +31,21 @@ import linkedin from './linkedin.png'
 import youtube from './youtube.png'
 import send from './send.png'
 import message from './message.png'
+import house from './house.png'
+import purpleStar from './purpleStar.png'
+import hat from './hat.png'
+import people from './people.png'
+import image1 from './our-team-images/image1.png'
+import image2 from './our-team-images/image2.png'
+import image3 from './our-team-images/image3.png'
+import image4 from './our-team-images/image4.png'
+import lightning from './lightning.png'
+import checkerboard from './checkerboard.png'
 
 export {
     groupLines, squares, desktopLogo, xMark, arrowRightTop, building, money, shop, buildings, sun, stars,
     bigGroupLines, laptopLogo, menu, mobileLogo, arrowTopRightGrey, arrowDisabled, arrowActive, bathroom, bed, villa,
     Profile1, Profile2, Profile3, stareRating, boxesLift, boxesRight, facebook, twitter, linkedin, youtube,
-    send, message
+    send, message, house, purpleStar, hat, people, image1, image2, image3, image4, lightning,
+    checkerboard
 }

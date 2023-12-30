@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Button from '../button/Button'
 import { paragraph_classes } from '../../classes'
 
 const FAQList = ({ faqContainer, content }) => {

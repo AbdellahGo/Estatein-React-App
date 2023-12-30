@@ -61,7 +61,7 @@ const HeroSection = () => {
           <img src={buildings} alt="buildings image" className='w-full' />
         </div>
       </div>
-      <ServicesList services={services} />
+      <ServicesList content={services} />
     </div>
   )
 }

@@ -1,9 +1,13 @@
-import React, { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import { HeroSection, Properties, Testimonials, FAQ, CTA } from '../../components'
 import { ThemeContext } from '../../contextApi'
 
 const Home = () => {
   const { navBarHeight } = useContext(ThemeContext)
+
+  useEffect(() => {
+    window.scrollTo({ top: 0 })
+  }, [])
 
   return (
     <main>

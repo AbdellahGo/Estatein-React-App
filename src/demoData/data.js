@@ -1,4 +1,8 @@
-import { money, sun, building, shop, bed, bathroom, villa, Profile1, Profile2, Profile3, stareRating, facebook, twitter, linkedin, youtube } from '../assets'
+import {
+    money, sun, building, shop, bed, bathroom, villa,
+    Profile1, Profile2, Profile3, stareRating, facebook, twitter, linkedin, youtube,
+    purpleStar, hat, people, image1, image2, image3, image4, lightning, checkerboard
+} from '../assets'
 
 export const pagesLinks = [
     {
@@ -61,21 +65,29 @@ export const heroSectionData = {
         {
             id: 1,
             icon: shop,
+            link: '',
+            page: '/properties',
             serviceTitle: 'Find Your Dream Home'
         },
         {
             id: 2,
             icon: money,
+            link: 'negotiation_wizardry',
+            page: '/services',
             serviceTitle: 'Unlock Property Value'
         },
         {
             id: 3,
             icon: building,
+            link: 'property_management',
+            page: '/services',
             serviceTitle: 'Effortless Property Management'
         },
         {
             id: 4,
             icon: sun,
+            link: 'closing_success',
+            page: '/services',
             serviceTitle: 'Smart Investments, Informed Decisions'
         },
     ]
@@ -124,7 +136,7 @@ export const propertiesDetails = {
                 "https://storage.sub-ca.incomrealestate.com/65891b6e0a9aec47a32e78c7.jpeg?height=7969.000118747354",
                 "https://storage.sub-ca.incomrealestate.com/65891b6f89e818472917f66c.jpeg?height=7969.000118747354"
             ]
-        },  
+        },
         {
             "id": 2,
             "propertyArea": "500-599",
@@ -989,20 +1001,20 @@ export const CTADetails = {
 
 export const footerData = {
     pagesLinks: [
-        {page: 'Home', pageLink: '/'},
-        {page: 'About', pageLink: 'about'},
-        {page: 'Properties', pageLink: 'properties'},
-        {page: 'Services', pageLink: 'services'},
-        {page: 'Contact', pageLink: 'contact'}
+        { page: 'Home', pageLink: '/' },
+        { page: 'About', pageLink: 'about' },
+        { page: 'Properties', pageLink: 'properties' },
+        { page: 'Services', pageLink: 'services' },
+        { page: 'Contact', pageLink: 'contact' }
     ],
     copyright: {
         text1: '@2023 Estatein. All Rights Reserved. programmed by: AbdellahGX',
         text2: 'Terms & Conditions',
         socialMedia: [
-            {id: 1, socialLink: 'https://www.facebook.com/profile.php?id=100053501469803', icon: facebook},
-            {id: 2, socialLink: 'https://ae.linkedin.com/', icon: linkedin},
-            {id: 3, socialLink: 'https://twitter.com/AXGflash', icon: twitter},
-            {id: 4, socialLink: 'https://www.youtube.com/', icon: youtube},
+            { id: 1, socialLink: 'https://www.facebook.com/profile.php?id=100053501469803', icon: facebook },
+            { id: 2, socialLink: 'https://ae.linkedin.com/', icon: linkedin },
+            { id: 3, socialLink: 'https://twitter.com/AXGflash', icon: twitter },
+            { id: 4, socialLink: 'https://www.youtube.com/', icon: youtube },
         ]
     },
     links: [
@@ -1037,7 +1049,7 @@ export const footerData = {
             {
                 id: 1,
                 content: 'Our Story',
-                link: 'our_story'
+                link: 'our_story',
             },
             {
                 id: 2,
@@ -1111,5 +1123,298 @@ export const footerData = {
                 link: 'our_offices'
             },
         ],
+    ]
+}
+
+export const ourJourneyData = {
+    title: 'Our Journey',
+    description: "Our story is one of continuous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary. Over the years, we've expanded our reach, forged valuable partnerships, and gained the trust of countless clients.",
+    stats: [
+        {
+            id: 1,
+            number: '200+',
+            text: 'Happy Customers',
+        },
+        {
+            id: 2,
+            number: '10k+',
+            text: 'Properties For Clients',
+        },
+        {
+            id: 3,
+            number: '16+',
+            text: 'Years of Experience',
+        },
+    ],
+}
+
+export const ourValuesDate = {
+    title: 'Our Values',
+    description: 'Our story is one of continuous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary.',
+    valuesList: [
+        [
+            {
+                id: 1,
+                icon: purpleStar,
+                title: 'Trust',
+                desc: 'Trust is the cornerstone of every successful real estate transaction.'
+            },
+            {
+                id: 2,
+                icon: hat,
+                title: 'Excellence',
+                desc: 'We set the bar high for ourselves. From the properties we list to the services we provide.'
+            },
+        ],
+        [
+            {
+                id: 3,
+                icon: people,
+                title: 'Client-Centric',
+                desc: 'Your dreams and needs are at the center of our universe. We listen, understand.'
+            },
+            {
+                id: 4,
+                icon: purpleStar,
+                title: 'Our Commitment',
+                desc: 'We are dedicated to providing you with the highest level of service, professionalism, and support.'
+            }
+        ]
+
+    ]
+}
+
+export const ourAchievementsData = {
+    title: 'Our Achievements',
+    description: "Our story is one of continuous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary.",
+    achievementsList: [
+        {
+            id: 1,
+            title: '3+ Years of Excellence',
+            desc: "With over 3 years in the industry, we've amassed a wealth of knowledge and experience, becoming a go-to resource for all things real estate."
+        },
+        {
+            id: 2,
+            title: 'Happy Clients',
+            desc: 'Our greatest achievement is the satisfaction of our clients. Their success stories fuel our passion for what we do.'
+        },
+        {
+            id: 3,
+            title: 'Industry Recognition',
+            desc: "We've earned the respect of our peers and industry leaders, with accolades and awards that reflect our commitment to excellence."
+        },
+    ]
+}
+
+export const howItWorksData = {
+    title: 'Navigating the Estatein Experience',
+    description: "At Estatein, we've designed a straightforward process to help you find and purchase your dream property with ease. Here's a step-by-step guide to how it all works.",
+    howItWorksList: [
+        {
+            id: 1,
+            title: 'Discover a World of Possibilities',
+            desc: 'Your journey begins with exploring our carefully curated property listings. Use our intuitive search tools to filter properties based on your preferences, including location, type, size, and budget.'
+        },
+        {
+            id: 2,
+            title: 'Narrowing Down Your Choices',
+            desc: "Once you've found properties that catch your eye, save them to your account or make a shortlist. This allows you to compare and revisit your favorites as you make your decision."
+        },
+        {
+            id: 3,
+            title: 'Personalized Guidance',
+            desc: 'Have questions about a property or need more information? Our dedicated team of real estate experts is just a call or message away.'
+        },
+        {
+            id: 4,
+            title: 'See It for Yourself',
+            desc: "Arrange viewings of the properties you're interested in. We'll coordinate with the property owners and accompany you to ensure you get a firsthand look at your potential new home."
+        },
+        {
+            id: 5,
+            title: 'Making Informed Decisions',
+            desc: "Before making an offer, our team will assist you with due diligence, including property inspections, legal checks, and market analysis. We want you to be fully informed and confident in your choice."
+        },
+        {
+            id: 6,
+            title: 'Getting the Best Deal',
+            desc: "We'll help you negotiate the best terms and prepare your offer. Our goal is to secure the property at the right price and on favorable terms."
+        },
+    ]
+}
+
+
+export const ourTeamData = {
+    title: 'Meet the Estatein Team',
+    description: 'At Estatein, our success is driven by the dedication and expertise of our team. Get to know the people behind our mission to make your real estate dreams a reality.',
+    ourTeamList: [
+        {
+            id: 1,
+            personName: 'Max Mitchell',
+            job: 'Founder',
+            image: image1
+        },
+        {
+            id: 2,
+            personName: 'Sarah Johnson',
+            job: 'Chief Real Estate Officer',
+            image: image2
+        },
+        {
+            id: 3,
+            personName: 'David Brown',
+            job: 'Head of Property Management',
+            image: image3
+        },
+        {
+            id: 4,
+            personName: 'Michael Turner',
+            job: 'Legal Counsel',
+            image: image4
+        },
+    ]
+}
+
+
+export const ourClientsData = {
+    title: 'Our Valued Clients',
+    description: "At Estatein, we have had the privilege of working with a diverse range of clients across various industries. Here are some of the clients we've had the pleasure of serving",
+    ourClientsList: [
+        {
+            id: 1,
+            date: 'Since 2019',
+            companyName: 'ABC Corporation',
+            info: [
+                { id: 1, icon: checkerboard, value: 'Commercial Real Estate', },
+                { id: 2, icon: lightning, value: 'Luxury Home Development', }
+            ],
+            opinion: "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs.",
+        },
+        {
+            id: 2,
+            date: 'Since 2023',
+            companyName: 'GreenTech Enterprises',
+            info: [
+                { id: 1, icon: checkerboard, value: 'Commercial Real Estate', },
+                { id: 2, icon: lightning, value: 'Retail Space', }
+            ],
+            opinion: "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth.",
+        },
+        {
+            id: 3,
+            date: 'Since 2021',
+            companyName: 'Tech Innovations Inc.',
+            info: [
+                { id: 1, icon: checkerboard, value: 'Technology', },
+                { id: 2, icon: lightning, value: 'Corporate Headquarters', }
+            ],
+            opinion: "Estatein played a crucial role in securing a modern corporate headquarters for us. Their attention to detail and understanding of tech infrastructure requirements set them apart.",
+        },
+        {
+            id: 4,
+            date: 'Since 2019',
+            companyName: 'Global Finance Group',
+            info: [
+                { id: 1, icon: checkerboard, value: 'Finance', },
+                { id: 2, icon: lightning, value: 'Office Space', }
+            ],
+            opinion: "We have been working with Estatein for several years, and their commitment to finding suitable office spaces for our teams globally has been consistently impressive.",
+        },
+        {
+            id: 5,
+            date: 'Since 2021',
+            companyName: 'Innovate Solutions',
+            info: [
+                { id: 1, icon: checkerboard, value: 'Technology', },
+                { id: 2, icon: lightning, value: 'Research and Development Facility', }
+            ],
+            opinion: "Estatein's support in establishing our state-of-the-art research and development facility was instrumental. They exceeded our expectations in every aspect.",
+        },
+        {
+            id: 6,
+            date: 'Since 2020',
+            companyName: 'MedicalCare Group',
+            info: [
+                { id: 1, icon: checkerboard, value: 'Healthcare', },
+                { id: 2, icon: lightning, value: 'Medical Clinics', }
+            ],
+            opinion: "Estatein's knowledge of healthcare real estate proved invaluable as they helped us find suitable locations for our medical clinics. Their understanding of compliance requirements was commendable.",
+        },
+        {
+            id: 7,
+            date: 'Since 2022',
+            companyName: 'GreenEnergy Solutions',
+            info: [
+                { id: 1, icon: checkerboard, value: 'Renewable Energy', },
+                { id: 2, icon: lightning, value: 'Facility Expansion', }
+            ],
+            opinion: "Estatein's assistance in expanding our renewable energy facilities was crucial to our mission. Their commitment to sustainable solutions aligns perfectly with our values.",
+        },
+        {
+            id: 8,
+            date: 'Since 2022',
+            companyName: 'Education Innovators',
+            info: [
+                { id: 1, icon: checkerboard, value: 'Education', },
+                { id: 2, icon: lightning, value: 'Campus Development', }
+            ],
+            opinion: "Estatein's support in developing our educational campuses has been outstanding. They understand the unique requirements of educational institutions and deliver results with precision.",
+        },
+        {
+            id: 9,
+            date: 'Since 2023',
+            companyName: 'Artistic Studios',
+            info: [
+                { id: 1, icon: checkerboard, value: 'Artistic Studios', },
+                { id: 2, icon: lightning, value: 'Arts and Entertainment', }
+            ],
+            opinion: "Estatein's expertise in identifying creative spaces for our artistic endeavors has been a game-changer. They have a keen eye for unique and inspiring locations.",
+        },
+        {
+            id: 10,
+            date: 'Since 2022',
+            companyName: 'Fashion Trends Co.',
+            info: [
+                { id: 1, icon: checkerboard, value: 'Fashion', },
+                { id: 2, icon: lightning, value: 'Showroom and Design Spaces', }
+            ],
+            opinion: "Our long-standing partnership with Estatein has been integral to our success in the fashion industry. Their ability to find stylish and functional showroom spaces is unparalleled.",
+        },
+    ]
+}
+
+export const servicesHeaderSectionData = {
+    title: 'Elevate Your Real Estate Experience',
+    description: 'Welcome to Estatein, where your real estate aspirations meet expert guidance. Explore our comprehensive range of services, each designed to cater to your unique needs and dreams.',
+    id: 'valuation_mastery',
+    servicesList: [
+        {
+            id: 1,
+            icon: shop,
+            link: '',
+            page: '/properties',
+            serviceTitle: 'Find Your Dream Home'
+        },
+        {
+            id: 2,
+            icon: money,
+            link: 'negotiation_wizardry',
+            page: '/services',
+            serviceTitle: 'Unlock Property Value'
+        },
+        {
+            id: 3,
+            icon: building,
+            link: 'property_management',
+            page: '/services',
+            serviceTitle: 'Effortless Property Management'
+        },
+        {
+            id: 4,
+            icon: sun,
+            link: 'closing_success',
+            page: '/services',
+            serviceTitle: 'Smart Investments, Informed Decisions'
+        },
     ]
 }

@@ -9,20 +9,20 @@ export const findRest = (numShowingItems, listLen, itemsList, finalRestF) => {
     }
 }
 
-export const handleMediaChange = (initNumberShowingItemsF, initShowingItemsF, RangeF) => {
+export const handleMediaChange = (initNumberShowingItemsF, initShowingItemsF, RangeF, numShowingItemsSmall, numShowingItemsMedium, numShowingItemsLarge) => {
     const mediumScreen = window.matchMedia('(max-width: 991.98px) and (min-width: 768px) ').matches
     const smallScreen = window.matchMedia('(max-width: 767.98px)').matches
     if (mediumScreen) {
-        initNumberShowingItemsF(2)
-        initShowingItemsF(2)
+        initNumberShowingItemsF(numShowingItemsMedium)
+        initShowingItemsF(numShowingItemsMedium)
         RangeF(0)
     } else if (smallScreen) {
-        initNumberShowingItemsF(1)
-        initShowingItemsF(1)
+        initNumberShowingItemsF(numShowingItemsSmall)
+        initShowingItemsF(numShowingItemsSmall)
         RangeF(0)
     } else {
-        initNumberShowingItemsF(3)
-        initShowingItemsF(3)
+        initNumberShowingItemsF(numShowingItemsLarge)
+        initShowingItemsF(numShowingItemsLarge)
         RangeF(0)
     }
 }

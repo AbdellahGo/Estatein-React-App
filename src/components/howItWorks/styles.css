@@ -1,0 +1,23 @@
+.how-it-works-box div::after {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(112,59,247,1) 20%, rgba(166,133,250,0) 100%);
+    top: -1px;
+    left: -1px;
+    z-index: 100;
+  }
+  
+  
+  .how-it-works-box div::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 60%;
+    background-color: #703BF7;
+    background: linear-gradient(180deg, rgba(112,59,247,1) 30%, rgba(166,133,250,0) 100%);
+    top: 0;
+    left: -1px;
+    z-index: 100;
+  }
