@@ -1,5 +1,5 @@
 import { useContext, useEffect } from 'react'
-import { CTA, HeaderSection } from '../../components'
+import { CTA, HeaderSection, ManagementFeatures, Values, InvestmentsFeatures } from '../../components'
 import { ThemeContext } from '../../contextApi'
 import { servicesHeaderSectionData } from '../../demoData/data'
 
@@ -15,6 +15,9 @@ const Services = () => {
     <main>
       <div style={{ paddingTop: `${navBarHeight}px` }}>
         <HeaderSection title={title} description={description} id={id} content={servicesList} />
+        <Values/>
+        <ManagementFeatures/>
+        <InvestmentsFeatures/>
         <CTA />
       </div>
     </main>

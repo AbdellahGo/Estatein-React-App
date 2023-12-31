@@ -57,7 +57,7 @@ const NavBar = ({ setNavBarHeight }) => {
 
   return (
     <nav ref={navBar} className={`fixed left-[50%] translate-x-[-50%] w-full z-[1000] border-y-1 border-y-grey-15 bg-grey-10`}>
-      <div className={`banner ${banner ? 'block' : 'hidden'}bg-grey-10`}>
+      <div className={`banner ${banner ? 'block' : 'hidden'} bg-grey-10`}>
         <div className={`xxl:py-18 md:py-14 Mmd:flex justify-center items-center pt-40 pb-20 ${padding_x} text-center  relative`}
           style={{ background: `url(${bigGroupLines})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
           <p className='xxl:text-18 md:text-14 text-12 text-white font-medium'>✨Discover Your Dream Property with Estatein

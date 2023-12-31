@@ -24,7 +24,7 @@ const PropertiesList = ({ content, propertiesContainer }) => {
                 </div>
               ))}
             </div>
-            <div className='flex xl:flex-row md:flex-col Msm:flex-wrap justify-between xxl:gap-50 xl:gap-40 md:gap-20 Mmd:gap-30'>
+            <div className='flex xl:flex-row md:flex-col Msm:flex-wrap justify-between xxl:gap-50 xl:gap-35 md:gap-20 Mmd:gap-30'>
               <div className='xxl:text-18 text-14 text-grey-60 font-medium Msm:w-full'>Price
                 <span className='block xxl:text-24 md:text-20 text-18 font-semibold text-white'>{propertyPrice}</span>
               </div>

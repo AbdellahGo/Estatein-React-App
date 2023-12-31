@@ -15,8 +15,8 @@ body {
   background-color: #141414;
   height: 1000vh;
 }
-.our-clients,
-.our-clients * {
+.values,
+.values * {
   /* outline: 1px dotted red; */
 }
 

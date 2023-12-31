@@ -38,7 +38,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className='slide-in-right lg:w-[50%] w-full bg-grey-10 Mlg:border-1 Mlg:border-grey-15 Mlg:rounded-12 relative'>
-          <div className='absolute xxl:top-[144px] xl:top-[95px] lg:top-[40px] xxl:right-[821px] xl:right-[620px] lg:right-[370px] Mlg:left-0 Mlg:bottom-[-40px]'>
+          <div className='absolute xxl:top-[144px] xl:top-[90px] lg:top-[35px] xxl:right-[821px] xl:right-[595px] lg:right-[350px] Mlg:left-0 Mlg:bottom-[-40px]'>
             <div className="circle-text w-fit relative flex justify-center items-center">
               <div className="container bg-grey-10 border-1 border-grey-15 relative xxl:h-[175px] xxl:w-[175px] w-[130px] h-[130px] rounded-full">
                 <div className="container-spans absolute left-[50%] top-[50%]">

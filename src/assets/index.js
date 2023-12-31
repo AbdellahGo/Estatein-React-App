@@ -41,11 +41,21 @@ import image3 from './our-team-images/image3.png'
 import image4 from './our-team-images/image4.png'
 import lightning from './lightning.png'
 import checkerboard from './checkerboard.png'
+// ?
+import chessBoardPlus from './chessBoardPlus.png'
+import circularStatistics from './circularStatistics.png'
+import dataBase from './dataBase.png'
+import fire from './fire.png'
+import lamp from './lamp.png'
+import magicStars from './magicStars.png'
+import magnifier from './magnifier.png'
+import signal from './signal.png'
+import tags from './tags.png'
 
 export {
     groupLines, squares, desktopLogo, xMark, arrowRightTop, building, money, shop, buildings, sun, stars,
     bigGroupLines, laptopLogo, menu, mobileLogo, arrowTopRightGrey, arrowDisabled, arrowActive, bathroom, bed, villa,
     Profile1, Profile2, Profile3, stareRating, boxesLift, boxesRight, facebook, twitter, linkedin, youtube,
     send, message, house, purpleStar, hat, people, image1, image2, image3, image4, lightning,
-    checkerboard
+    checkerboard, chessBoardPlus, circularStatistics, dataBase, fire, lamp, magicStars, magnifier, signal, tags,
 }
