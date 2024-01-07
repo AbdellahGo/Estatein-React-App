@@ -41,7 +41,6 @@ import image3 from './our-team-images/image3.png'
 import image4 from './our-team-images/image4.png'
 import lightning from './lightning.png'
 import checkerboard from './checkerboard.png'
-// ?
 import chessBoardPlus from './chessBoardPlus.png'
 import circularStatistics from './circularStatistics.png'
 import dataBase from './dataBase.png'
@@ -51,6 +50,26 @@ import magicStars from './magicStars.png'
 import magnifier from './magnifier.png'
 import signal from './signal.png'
 import tags from './tags.png'
+import search from './search.png'
+import miniLogo from './miniLogo.png'
+import location from './location.png'
+import phone from './phone.png'
+import purpleMessage from './purpleMessage.png'
+import whiteLocation from './whiteLocation.png'
+import whiteMessage from './whiteMessage.png'
+import whitePhone from './whitePhone.png'
+import worldImage1 from './estateinsWorld-images/worldImage1.png'
+import worldImage2 from './estateinsWorld-images/worldImage2.png'
+import worldImage3 from './estateinsWorld-images/worldImage3.png'
+import worldImage4 from './estateinsWorld-images/worldImage4.png'
+import worldImage5 from './estateinsWorld-images/worldImage5.png'
+import worldImage6 from './estateinsWorld-images/worldImage6.png'
+import groupLines2 from './groupLines2.png'
+import area from './property-images/area.png'
+import greyBed from './property-images/greyBed.png'
+import greyBathroom from './property-images/greyBathroom.png'
+import whiteLightning from './whiteLightning.png'
+
 
 export {
     groupLines, squares, desktopLogo, xMark, arrowRightTop, building, money, shop, buildings, sun, stars,
@@ -58,4 +77,7 @@ export {
     Profile1, Profile2, Profile3, stareRating, boxesLift, boxesRight, facebook, twitter, linkedin, youtube,
     send, message, house, purpleStar, hat, people, image1, image2, image3, image4, lightning,
     checkerboard, chessBoardPlus, circularStatistics, dataBase, fire, lamp, magicStars, magnifier, signal, tags,
+    search, miniLogo, location, phone, purpleMessage, whiteLocation, whiteMessage, whitePhone,
+    worldImage1, worldImage2, worldImage3, worldImage4, worldImage5, worldImage6,groupLines2, area, greyBed,
+    greyBathroom, whiteLightning
 }

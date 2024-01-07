@@ -1,0 +1,785 @@
+{
+  "result_count": 1,
+  "area_name": "",
+  "listing": [
+    {
+      "rental_prices": {
+        "shared_occupancy": "N",
+        "per_week": 519,
+        "accurate": "per_month",
+        "per_month": 2250
+      },
+      "num_floors": 0,
+      "image_150_113_url": "https://lid.zoocdn.com/150/113/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+      "listing_status": "rent",
+      "num_bedrooms": 2,
+      "image_50_38_url": "https://lid.zoocdn.com/50/38/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+      "latitude": 51.769608,
+      "furnished_state": "part_furnished",
+      "agent_address": "Holyfield house, 1 Walton Well Road, Oxford",
+      "category": "Residential",
+      "property_type": "End terrace house",
+      "last_sale_date": "2008-07-25",
+      "longitude": -1.26922,
+      "brochure": [
+        "https://lc.zoocdn.com/51826bc63be4b27cc5c9f06dcb587caa20137f58.pdf",
+        "https://www.vebra.com/details/property/32802917"
+      ],
+      "floor_area": {
+        "max_floor_area": {
+          "value": "1171",
+          "units": "sq_feet"
+        }
+      },
+      "listing_date": "2024-01-04 17:31:30",
+      "description": "Located in this sought after friendly no-through road in central North Oxford, a two bedroom end of terrace house, extended and renovated throughout to a high standard and available on a part furnished basis. Easy access to walks along the Oxford Canal and Port Meadow with Jericho's shops, restaurants and bars being only a 10 minute stroll away. Two double bedrooms, both with fitted wardrobes & front with another large cupboard, Bathroom with separate shower and bath and 2 wall cabinets, Second bathroom with separate shower cubicle, Living/Dining room with ornamental wood burner, Utility cupboard housing washing machine and dryer, Superb light and spacious Kitchen/Breakfast room with vaulted ceilings, floor to ceiling windows and side door to the good sized gardens. Side access to back gardens for bicycles etc. Kitchen is fully fitted with electric oven, induction hob and fridge/freezer, Gas CH, Studio in rear garden with power. On street permit parking.Additional information:Items provided will include curtains, lampshades, carpets & rug in loungedouble bed (with 4 drawers) + 6 drawer chestdouble bed + bookshelvesLiving/Dining room - 2 sofas + Ikea 'sideboard storage unitKitchen/Breakfast room - 1 sofa + tall bookshelves.",
+      "agent_postcode": "OX2 6ED",
+      "post_town": "Oxford",
+      "details_url": "https://www.zoopla.co.uk/to-rent/details/66335721?utm_source=v1:5bWFDybfWx7C7AGpeagt7mP3PgcqjuqJ&utm_medium=api",
+      "other_image": [
+        {
+          "url": "https://lid.zoocdn.com/645/430/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+          "description": "Outside Front.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/bf34fb1a2a426488a7e3c5175301a56c2900d78f.jpg",
+          "description": "Living Room 3.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/eaa10517f7f6af7350293687223f3a6116131004.jpg",
+          "description": "Kitchen 3.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/d15c5b4eb86316b00e22b55af45421d9e00b2c0c.jpg",
+          "description": "Diner .Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/a13ec230bcca65e60174dfcd7d3b958bb8e42f92.jpg",
+          "description": "Bedroom .Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/d9692858666ff6480f0d5bcc6fc5a9a00d05ae47.jpg",
+          "description": "Bedroom 2.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/40ecf157c5e3edfd99aa1921c9300d70c19e9c99.jpg",
+          "description": "Bedroom 3.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/e7afef2e4875cf2bc95120c0394cb74dc1c2658a.jpg",
+          "description": "Bathroom.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/e060ac2ba1c20fdf37e04eeb8216402aa9867ffd.jpg",
+          "description": "Diner 2.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/d424a1902753f5a056a565f055143d51d43cab8d.jpg",
+          "description": "Garden 2.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/def6927037b048721732ba7bfb8a80355fdc8858.jpg",
+          "description": "Garden 4.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/b705bdf1b6ab87e36f92cf1a941145a06a5b589f.jpg",
+          "description": "Garden.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/ecf2cc094787f4d3f8d92ccfc3aeb0737dd841e1.jpg",
+          "description": "Kitchen 2.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/a5ac737435e43b3873f395abb69651f752d9cf30.jpg",
+          "description": "Kitchen.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/c6815123e6ed73cfe8b5b9540ed74b22b44d546a.jpg",
+          "description": "Living Room 2.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/cad9a9716ff9a3fe23965f87efdea440e5575eb5.jpg",
+          "description": "Living Room 4.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/b23369b1ad566df3048843fda78701291cd7cb7c.jpg",
+          "description": "Living Room.Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/dfd0d77866f2d9d7298e07d1d6cf851dcd40c657.jpg",
+          "description": "72 Hayfield Road (3).Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/e92c02d2a31b56bf7a65b75deff8528ad5b8a511.jpg",
+          "description": "72 Hayfield Road (6).Jpg"
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/bd026bd50d1818a17d8ebe43e0f721e53c9df898.jpg",
+          "description": "72 Hayfield Road (11).Jpg"
+        }
+      ],
+      "title": "2 bed end terrace house to rent",
+      "county": "Oxfordshire",
+      "bullet": [
+        "Sought after location",
+        "Close to Jericho and Port Meadow",
+        "Two double bedrooms",
+        "Two bathrooms",
+        "Finished to a high standard",
+        "Gas CH",
+        "Attractive rear garden with side access",
+        "On street permit parking",
+        "EPC rating C",
+        "Council Tax Band E"
+      ],
+      "image_80_60_url": "https://lid.zoocdn.com/80/60/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+      "property_number": "72",
+      "num_recepts": 1,
+      "country": "England",
+      "street_name": "Hayfield Road",
+      "num_bathrooms": 2,
+      "epc_graph": [
+        "https://lc.zoocdn.com/36cf11da67be0e7928973c45879b853792d8fa74.png"
+      ],
+      "agent_logo": "https://st.zoocdn.com/zoopla_static_agent_logo_(164952).png",
+      "price_change": [
+        {
+          "direction": "",
+          "date": "2024-01-04 17:31:30",
+          "percent": "0%",
+          "price": 519
+        }
+      ],
+      "agent_phone": "01865 680839",
+      "group_id": 0,
+      "last_published_date": "2024-01-04 17:34:08",
+      "last_sale_price": 450000,
+      "country_code": "gb",
+      "view_count_30day": 0,
+      "location_is_approximate": 0,
+      "view_count": 0,
+      "branch_id": "93577",
+      "images": [
+        {
+          "original": "https://lc.zoocdn.com/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+          "caption": "Outside Front.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/bf34fb1a2a426488a7e3c5175301a56c2900d78f.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/bf34fb1a2a426488a7e3c5175301a56c2900d78f.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/bf34fb1a2a426488a7e3c5175301a56c2900d78f.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/bf34fb1a2a426488a7e3c5175301a56c2900d78f.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/bf34fb1a2a426488a7e3c5175301a56c2900d78f.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/bf34fb1a2a426488a7e3c5175301a56c2900d78f.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/bf34fb1a2a426488a7e3c5175301a56c2900d78f.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/bf34fb1a2a426488a7e3c5175301a56c2900d78f.jpg",
+          "caption": "Living Room 3.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/bf34fb1a2a426488a7e3c5175301a56c2900d78f.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/bf34fb1a2a426488a7e3c5175301a56c2900d78f.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/eaa10517f7f6af7350293687223f3a6116131004.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/eaa10517f7f6af7350293687223f3a6116131004.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/eaa10517f7f6af7350293687223f3a6116131004.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/eaa10517f7f6af7350293687223f3a6116131004.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/eaa10517f7f6af7350293687223f3a6116131004.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/eaa10517f7f6af7350293687223f3a6116131004.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/eaa10517f7f6af7350293687223f3a6116131004.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/eaa10517f7f6af7350293687223f3a6116131004.jpg",
+          "caption": "Kitchen 3.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/eaa10517f7f6af7350293687223f3a6116131004.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/eaa10517f7f6af7350293687223f3a6116131004.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/d15c5b4eb86316b00e22b55af45421d9e00b2c0c.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/d15c5b4eb86316b00e22b55af45421d9e00b2c0c.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/d15c5b4eb86316b00e22b55af45421d9e00b2c0c.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/d15c5b4eb86316b00e22b55af45421d9e00b2c0c.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/d15c5b4eb86316b00e22b55af45421d9e00b2c0c.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/d15c5b4eb86316b00e22b55af45421d9e00b2c0c.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/d15c5b4eb86316b00e22b55af45421d9e00b2c0c.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/d15c5b4eb86316b00e22b55af45421d9e00b2c0c.jpg",
+          "caption": "Diner .Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/d15c5b4eb86316b00e22b55af45421d9e00b2c0c.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/d15c5b4eb86316b00e22b55af45421d9e00b2c0c.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/a13ec230bcca65e60174dfcd7d3b958bb8e42f92.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/a13ec230bcca65e60174dfcd7d3b958bb8e42f92.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/a13ec230bcca65e60174dfcd7d3b958bb8e42f92.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/a13ec230bcca65e60174dfcd7d3b958bb8e42f92.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/a13ec230bcca65e60174dfcd7d3b958bb8e42f92.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/a13ec230bcca65e60174dfcd7d3b958bb8e42f92.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/a13ec230bcca65e60174dfcd7d3b958bb8e42f92.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/a13ec230bcca65e60174dfcd7d3b958bb8e42f92.jpg",
+          "caption": "Bedroom .Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/a13ec230bcca65e60174dfcd7d3b958bb8e42f92.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/a13ec230bcca65e60174dfcd7d3b958bb8e42f92.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/d9692858666ff6480f0d5bcc6fc5a9a00d05ae47.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/d9692858666ff6480f0d5bcc6fc5a9a00d05ae47.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/d9692858666ff6480f0d5bcc6fc5a9a00d05ae47.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/d9692858666ff6480f0d5bcc6fc5a9a00d05ae47.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/d9692858666ff6480f0d5bcc6fc5a9a00d05ae47.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/d9692858666ff6480f0d5bcc6fc5a9a00d05ae47.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/d9692858666ff6480f0d5bcc6fc5a9a00d05ae47.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/d9692858666ff6480f0d5bcc6fc5a9a00d05ae47.jpg",
+          "caption": "Bedroom 2.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/d9692858666ff6480f0d5bcc6fc5a9a00d05ae47.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/d9692858666ff6480f0d5bcc6fc5a9a00d05ae47.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/40ecf157c5e3edfd99aa1921c9300d70c19e9c99.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/40ecf157c5e3edfd99aa1921c9300d70c19e9c99.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/40ecf157c5e3edfd99aa1921c9300d70c19e9c99.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/40ecf157c5e3edfd99aa1921c9300d70c19e9c99.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/40ecf157c5e3edfd99aa1921c9300d70c19e9c99.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/40ecf157c5e3edfd99aa1921c9300d70c19e9c99.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/40ecf157c5e3edfd99aa1921c9300d70c19e9c99.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/40ecf157c5e3edfd99aa1921c9300d70c19e9c99.jpg",
+          "caption": "Bedroom 3.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/40ecf157c5e3edfd99aa1921c9300d70c19e9c99.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/40ecf157c5e3edfd99aa1921c9300d70c19e9c99.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/e7afef2e4875cf2bc95120c0394cb74dc1c2658a.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/e7afef2e4875cf2bc95120c0394cb74dc1c2658a.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/e7afef2e4875cf2bc95120c0394cb74dc1c2658a.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/e7afef2e4875cf2bc95120c0394cb74dc1c2658a.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/e7afef2e4875cf2bc95120c0394cb74dc1c2658a.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/e7afef2e4875cf2bc95120c0394cb74dc1c2658a.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/e7afef2e4875cf2bc95120c0394cb74dc1c2658a.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/e7afef2e4875cf2bc95120c0394cb74dc1c2658a.jpg",
+          "caption": "Bathroom.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/e7afef2e4875cf2bc95120c0394cb74dc1c2658a.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/e7afef2e4875cf2bc95120c0394cb74dc1c2658a.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/e060ac2ba1c20fdf37e04eeb8216402aa9867ffd.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/e060ac2ba1c20fdf37e04eeb8216402aa9867ffd.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/e060ac2ba1c20fdf37e04eeb8216402aa9867ffd.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/e060ac2ba1c20fdf37e04eeb8216402aa9867ffd.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/e060ac2ba1c20fdf37e04eeb8216402aa9867ffd.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/e060ac2ba1c20fdf37e04eeb8216402aa9867ffd.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/e060ac2ba1c20fdf37e04eeb8216402aa9867ffd.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/e060ac2ba1c20fdf37e04eeb8216402aa9867ffd.jpg",
+          "caption": "Diner 2.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/e060ac2ba1c20fdf37e04eeb8216402aa9867ffd.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/e060ac2ba1c20fdf37e04eeb8216402aa9867ffd.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/d424a1902753f5a056a565f055143d51d43cab8d.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/d424a1902753f5a056a565f055143d51d43cab8d.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/d424a1902753f5a056a565f055143d51d43cab8d.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/d424a1902753f5a056a565f055143d51d43cab8d.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/d424a1902753f5a056a565f055143d51d43cab8d.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/d424a1902753f5a056a565f055143d51d43cab8d.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/d424a1902753f5a056a565f055143d51d43cab8d.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/d424a1902753f5a056a565f055143d51d43cab8d.jpg",
+          "caption": "Garden 2.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/d424a1902753f5a056a565f055143d51d43cab8d.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/d424a1902753f5a056a565f055143d51d43cab8d.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/def6927037b048721732ba7bfb8a80355fdc8858.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/def6927037b048721732ba7bfb8a80355fdc8858.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/def6927037b048721732ba7bfb8a80355fdc8858.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/def6927037b048721732ba7bfb8a80355fdc8858.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/def6927037b048721732ba7bfb8a80355fdc8858.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/def6927037b048721732ba7bfb8a80355fdc8858.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/def6927037b048721732ba7bfb8a80355fdc8858.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/def6927037b048721732ba7bfb8a80355fdc8858.jpg",
+          "caption": "Garden 4.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/def6927037b048721732ba7bfb8a80355fdc8858.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/def6927037b048721732ba7bfb8a80355fdc8858.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/b705bdf1b6ab87e36f92cf1a941145a06a5b589f.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/b705bdf1b6ab87e36f92cf1a941145a06a5b589f.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/b705bdf1b6ab87e36f92cf1a941145a06a5b589f.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/b705bdf1b6ab87e36f92cf1a941145a06a5b589f.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/b705bdf1b6ab87e36f92cf1a941145a06a5b589f.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/b705bdf1b6ab87e36f92cf1a941145a06a5b589f.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/b705bdf1b6ab87e36f92cf1a941145a06a5b589f.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/b705bdf1b6ab87e36f92cf1a941145a06a5b589f.jpg",
+          "caption": "Garden.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/b705bdf1b6ab87e36f92cf1a941145a06a5b589f.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/b705bdf1b6ab87e36f92cf1a941145a06a5b589f.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/ecf2cc094787f4d3f8d92ccfc3aeb0737dd841e1.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/ecf2cc094787f4d3f8d92ccfc3aeb0737dd841e1.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/ecf2cc094787f4d3f8d92ccfc3aeb0737dd841e1.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/ecf2cc094787f4d3f8d92ccfc3aeb0737dd841e1.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/ecf2cc094787f4d3f8d92ccfc3aeb0737dd841e1.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/ecf2cc094787f4d3f8d92ccfc3aeb0737dd841e1.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/ecf2cc094787f4d3f8d92ccfc3aeb0737dd841e1.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/ecf2cc094787f4d3f8d92ccfc3aeb0737dd841e1.jpg",
+          "caption": "Kitchen 2.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/ecf2cc094787f4d3f8d92ccfc3aeb0737dd841e1.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/ecf2cc094787f4d3f8d92ccfc3aeb0737dd841e1.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/a5ac737435e43b3873f395abb69651f752d9cf30.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/a5ac737435e43b3873f395abb69651f752d9cf30.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/a5ac737435e43b3873f395abb69651f752d9cf30.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/a5ac737435e43b3873f395abb69651f752d9cf30.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/a5ac737435e43b3873f395abb69651f752d9cf30.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/a5ac737435e43b3873f395abb69651f752d9cf30.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/a5ac737435e43b3873f395abb69651f752d9cf30.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/a5ac737435e43b3873f395abb69651f752d9cf30.jpg",
+          "caption": "Kitchen.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/a5ac737435e43b3873f395abb69651f752d9cf30.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/a5ac737435e43b3873f395abb69651f752d9cf30.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/c6815123e6ed73cfe8b5b9540ed74b22b44d546a.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/c6815123e6ed73cfe8b5b9540ed74b22b44d546a.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/c6815123e6ed73cfe8b5b9540ed74b22b44d546a.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/c6815123e6ed73cfe8b5b9540ed74b22b44d546a.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/c6815123e6ed73cfe8b5b9540ed74b22b44d546a.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/c6815123e6ed73cfe8b5b9540ed74b22b44d546a.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/c6815123e6ed73cfe8b5b9540ed74b22b44d546a.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/c6815123e6ed73cfe8b5b9540ed74b22b44d546a.jpg",
+          "caption": "Living Room 2.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/c6815123e6ed73cfe8b5b9540ed74b22b44d546a.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/c6815123e6ed73cfe8b5b9540ed74b22b44d546a.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/cad9a9716ff9a3fe23965f87efdea440e5575eb5.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/cad9a9716ff9a3fe23965f87efdea440e5575eb5.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/cad9a9716ff9a3fe23965f87efdea440e5575eb5.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/cad9a9716ff9a3fe23965f87efdea440e5575eb5.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/cad9a9716ff9a3fe23965f87efdea440e5575eb5.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/cad9a9716ff9a3fe23965f87efdea440e5575eb5.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/cad9a9716ff9a3fe23965f87efdea440e5575eb5.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/cad9a9716ff9a3fe23965f87efdea440e5575eb5.jpg",
+          "caption": "Living Room 4.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/cad9a9716ff9a3fe23965f87efdea440e5575eb5.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/cad9a9716ff9a3fe23965f87efdea440e5575eb5.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/b23369b1ad566df3048843fda78701291cd7cb7c.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/b23369b1ad566df3048843fda78701291cd7cb7c.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/b23369b1ad566df3048843fda78701291cd7cb7c.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/b23369b1ad566df3048843fda78701291cd7cb7c.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/b23369b1ad566df3048843fda78701291cd7cb7c.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/b23369b1ad566df3048843fda78701291cd7cb7c.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/b23369b1ad566df3048843fda78701291cd7cb7c.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/b23369b1ad566df3048843fda78701291cd7cb7c.jpg",
+          "caption": "Living Room.Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/b23369b1ad566df3048843fda78701291cd7cb7c.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/b23369b1ad566df3048843fda78701291cd7cb7c.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/dfd0d77866f2d9d7298e07d1d6cf851dcd40c657.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/dfd0d77866f2d9d7298e07d1d6cf851dcd40c657.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/dfd0d77866f2d9d7298e07d1d6cf851dcd40c657.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/dfd0d77866f2d9d7298e07d1d6cf851dcd40c657.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/dfd0d77866f2d9d7298e07d1d6cf851dcd40c657.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/dfd0d77866f2d9d7298e07d1d6cf851dcd40c657.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/dfd0d77866f2d9d7298e07d1d6cf851dcd40c657.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/dfd0d77866f2d9d7298e07d1d6cf851dcd40c657.jpg",
+          "caption": "72 Hayfield Road (3).Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/dfd0d77866f2d9d7298e07d1d6cf851dcd40c657.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/dfd0d77866f2d9d7298e07d1d6cf851dcd40c657.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/e92c02d2a31b56bf7a65b75deff8528ad5b8a511.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/e92c02d2a31b56bf7a65b75deff8528ad5b8a511.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/e92c02d2a31b56bf7a65b75deff8528ad5b8a511.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/e92c02d2a31b56bf7a65b75deff8528ad5b8a511.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/e92c02d2a31b56bf7a65b75deff8528ad5b8a511.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/e92c02d2a31b56bf7a65b75deff8528ad5b8a511.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/e92c02d2a31b56bf7a65b75deff8528ad5b8a511.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/e92c02d2a31b56bf7a65b75deff8528ad5b8a511.jpg",
+          "caption": "72 Hayfield Road (6).Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/e92c02d2a31b56bf7a65b75deff8528ad5b8a511.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/e92c02d2a31b56bf7a65b75deff8528ad5b8a511.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/bd026bd50d1818a17d8ebe43e0f721e53c9df898.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/bd026bd50d1818a17d8ebe43e0f721e53c9df898.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/bd026bd50d1818a17d8ebe43e0f721e53c9df898.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/bd026bd50d1818a17d8ebe43e0f721e53c9df898.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/bd026bd50d1818a17d8ebe43e0f721e53c9df898.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/bd026bd50d1818a17d8ebe43e0f721e53c9df898.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/bd026bd50d1818a17d8ebe43e0f721e53c9df898.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/bd026bd50d1818a17d8ebe43e0f721e53c9df898.jpg",
+          "caption": "72 Hayfield Road (11).Jpg",
+          "50x38": "https://lid.zoocdn.com/50/38/bd026bd50d1818a17d8ebe43e0f721e53c9df898.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/bd026bd50d1818a17d8ebe43e0f721e53c9df898.jpg"
+        }
+      ],
+      "thumbnail_url": "https://lid.zoocdn.com/80/60/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+      "short_description": "<p class=\"top\">Located in this sought after friendly no-through road in central North Oxford, a two bedroom end of terrace house, extended and renovated throughout to a high standard and available on a part furnished basis. Easy access to walks along the Oxford Canal and Port Meadow with Jericho's shops, restaurants and bars being only a 10 minute stroll away. Two double bedrooms, both with fitted wardrobes &amp; front with another large cupboard, Bathroom with separate shower and bath and 2 wall cabinets, Second bathroom with separate shower cubicle, Living/Dining room with ornamental wood burner, Utility cupboard housing washing machine and dryer, Superb light and spacious Kitchen/Breakfast room with vaulted ceilings, floor to ceiling windows and side door to the good sized gardens. Side access to back gardens for bicycles etc. Kitchen is fully fitted with electric oven, induction hob and fridge/freezer, Gas CH, Studio in rear garden with power. On street permit parking.  Additional information: Items provided will include curtains, lampshades, carpets &amp; rug in lounge double bed (with 4 drawers) + 6 drawer chest double bed + bookshelves Living/Dining room - 2 sofas + Ikea 'sideboard storage unit Kitchen/Breakfast room - 1 sofa + tall bookshelves.</p>",
+      "outcode": "OX2",
+      "image_645_430_url": "https://lid.zoocdn.com/645/430/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+      "price": "519",
+      "available_from_display": "Available from  3rd Feb 2024",
+      "is_premium_listing": 0,
+      "listing_id": "66335721",
+      "image_caption": "Outside Front.Jpg",
+      "status": "to_rent",
+      "agent_name": "Thomas Merrifield Lettings",
+      "property_badge": "Just added",
+      "company_id": 3762,
+      "displayable_address": "Hayfield Road, Oxford OX2",
+      "first_published_date": "2024-01-04 17:34:08",
+      "property_id": 17557580,
+      "floor_plan": [
+        "https://lc.zoocdn.com/cbb22b7d9ffb0dc1158aeefe913bed9b0facab32.jpg"
+      ],
+      "incode": "6TU",
+      "featured_type": "S",
+      "image_354_255_url": "https://lid.zoocdn.com/354/255/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+      "image_url": "https://lid.zoocdn.com/645/430/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+      "original_image": [
+        "https://lc.zoocdn.com/bd9066e48f3d353e40cbbe426cf120ef537091f0.jpg",
+        "https://lc.zoocdn.com/bf34fb1a2a426488a7e3c5175301a56c2900d78f.jpg",
+        "https://lc.zoocdn.com/eaa10517f7f6af7350293687223f3a6116131004.jpg",
+        "https://lc.zoocdn.com/d15c5b4eb86316b00e22b55af45421d9e00b2c0c.jpg",
+        "https://lc.zoocdn.com/a13ec230bcca65e60174dfcd7d3b958bb8e42f92.jpg",
+        "https://lc.zoocdn.com/d9692858666ff6480f0d5bcc6fc5a9a00d05ae47.jpg",
+        "https://lc.zoocdn.com/40ecf157c5e3edfd99aa1921c9300d70c19e9c99.jpg",
+        "https://lc.zoocdn.com/e7afef2e4875cf2bc95120c0394cb74dc1c2658a.jpg",
+        "https://lc.zoocdn.com/e060ac2ba1c20fdf37e04eeb8216402aa9867ffd.jpg",
+        "https://lc.zoocdn.com/d424a1902753f5a056a565f055143d51d43cab8d.jpg",
+        "https://lc.zoocdn.com/def6927037b048721732ba7bfb8a80355fdc8858.jpg",
+        "https://lc.zoocdn.com/b705bdf1b6ab87e36f92cf1a941145a06a5b589f.jpg",
+        "https://lc.zoocdn.com/ecf2cc094787f4d3f8d92ccfc3aeb0737dd841e1.jpg",
+        "https://lc.zoocdn.com/a5ac737435e43b3873f395abb69651f752d9cf30.jpg",
+        "https://lc.zoocdn.com/c6815123e6ed73cfe8b5b9540ed74b22b44d546a.jpg",
+        "https://lc.zoocdn.com/cad9a9716ff9a3fe23965f87efdea440e5575eb5.jpg",
+        "https://lc.zoocdn.com/b23369b1ad566df3048843fda78701291cd7cb7c.jpg",
+        "https://lc.zoocdn.com/dfd0d77866f2d9d7298e07d1d6cf851dcd40c657.jpg",
+        "https://lc.zoocdn.com/e92c02d2a31b56bf7a65b75deff8528ad5b8a511.jpg",
+        "https://lc.zoocdn.com/bd026bd50d1818a17d8ebe43e0f721e53c9df898.jpg"
+      ]
+    }
+  ],
+  "street": "",
+  "county": "",
+  "town": "",
+  "postcode": ""
+}
+
+
+{
+  "result_count": 1,
+  "area_name": "",
+  "listing": [
+    {
+      "country_code": "gb",
+      "num_floors": 0,
+      "view_count_30day": 0,
+      "image_150_113_url": "https://lid.zoocdn.com/150/113/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+      "listing_status": "sale",
+      "num_bedrooms": 3,
+      "location_is_approximate": 0,
+      "image_50_38_url": "https://lid.zoocdn.com/50/38/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+      "latitude": 51.719723,
+      "view_count": 0,
+      "furnished_state": null,
+      "agent_address": "82 Rose Hill, Oxford",
+      "branch_id": "20006",
+      "category": "Residential",
+      "property_type": "Semi-detached house",
+      "images": [
+        {
+          "original": "https://lc.zoocdn.com/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/824478cea3a835a48a012ec7499e691ec69e5390.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/f0ec155f00717c16d19ad83f8039cddd9ea57f69.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/f0ec155f00717c16d19ad83f8039cddd9ea57f69.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/f0ec155f00717c16d19ad83f8039cddd9ea57f69.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/f0ec155f00717c16d19ad83f8039cddd9ea57f69.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/f0ec155f00717c16d19ad83f8039cddd9ea57f69.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/f0ec155f00717c16d19ad83f8039cddd9ea57f69.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/f0ec155f00717c16d19ad83f8039cddd9ea57f69.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/f0ec155f00717c16d19ad83f8039cddd9ea57f69.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/f0ec155f00717c16d19ad83f8039cddd9ea57f69.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/f0ec155f00717c16d19ad83f8039cddd9ea57f69.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/d3cd3f9aa224fadb3795d3c050d3ececa421ebb5.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/d3cd3f9aa224fadb3795d3c050d3ececa421ebb5.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/d3cd3f9aa224fadb3795d3c050d3ececa421ebb5.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/d3cd3f9aa224fadb3795d3c050d3ececa421ebb5.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/d3cd3f9aa224fadb3795d3c050d3ececa421ebb5.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/d3cd3f9aa224fadb3795d3c050d3ececa421ebb5.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/d3cd3f9aa224fadb3795d3c050d3ececa421ebb5.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/d3cd3f9aa224fadb3795d3c050d3ececa421ebb5.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/d3cd3f9aa224fadb3795d3c050d3ececa421ebb5.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/d3cd3f9aa224fadb3795d3c050d3ececa421ebb5.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/a5c0364796751426a28293ceab98a964207e3faf.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/a5c0364796751426a28293ceab98a964207e3faf.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/a5c0364796751426a28293ceab98a964207e3faf.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/a5c0364796751426a28293ceab98a964207e3faf.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/a5c0364796751426a28293ceab98a964207e3faf.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/a5c0364796751426a28293ceab98a964207e3faf.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/a5c0364796751426a28293ceab98a964207e3faf.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/a5c0364796751426a28293ceab98a964207e3faf.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/a5c0364796751426a28293ceab98a964207e3faf.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/a5c0364796751426a28293ceab98a964207e3faf.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/e7989e36520d72b424f466bdd89f6b82d80db080.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/e7989e36520d72b424f466bdd89f6b82d80db080.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/e7989e36520d72b424f466bdd89f6b82d80db080.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/e7989e36520d72b424f466bdd89f6b82d80db080.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/e7989e36520d72b424f466bdd89f6b82d80db080.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/e7989e36520d72b424f466bdd89f6b82d80db080.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/e7989e36520d72b424f466bdd89f6b82d80db080.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/e7989e36520d72b424f466bdd89f6b82d80db080.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/e7989e36520d72b424f466bdd89f6b82d80db080.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/e7989e36520d72b424f466bdd89f6b82d80db080.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/4b005bd5118e1b7df4143f2e2f2a12887123f123.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/4b005bd5118e1b7df4143f2e2f2a12887123f123.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/4b005bd5118e1b7df4143f2e2f2a12887123f123.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/4b005bd5118e1b7df4143f2e2f2a12887123f123.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/4b005bd5118e1b7df4143f2e2f2a12887123f123.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/4b005bd5118e1b7df4143f2e2f2a12887123f123.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/4b005bd5118e1b7df4143f2e2f2a12887123f123.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/4b005bd5118e1b7df4143f2e2f2a12887123f123.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/4b005bd5118e1b7df4143f2e2f2a12887123f123.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/4b005bd5118e1b7df4143f2e2f2a12887123f123.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/271cc7aa1edfea577408d4455d076d2f96b5298f.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/271cc7aa1edfea577408d4455d076d2f96b5298f.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/271cc7aa1edfea577408d4455d076d2f96b5298f.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/271cc7aa1edfea577408d4455d076d2f96b5298f.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/271cc7aa1edfea577408d4455d076d2f96b5298f.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/271cc7aa1edfea577408d4455d076d2f96b5298f.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/271cc7aa1edfea577408d4455d076d2f96b5298f.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/271cc7aa1edfea577408d4455d076d2f96b5298f.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/271cc7aa1edfea577408d4455d076d2f96b5298f.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/271cc7aa1edfea577408d4455d076d2f96b5298f.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/412dc54eda8fe6d4d8143dc59c6ecaacfc84e793.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/412dc54eda8fe6d4d8143dc59c6ecaacfc84e793.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/412dc54eda8fe6d4d8143dc59c6ecaacfc84e793.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/412dc54eda8fe6d4d8143dc59c6ecaacfc84e793.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/412dc54eda8fe6d4d8143dc59c6ecaacfc84e793.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/412dc54eda8fe6d4d8143dc59c6ecaacfc84e793.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/412dc54eda8fe6d4d8143dc59c6ecaacfc84e793.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/412dc54eda8fe6d4d8143dc59c6ecaacfc84e793.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/412dc54eda8fe6d4d8143dc59c6ecaacfc84e793.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/412dc54eda8fe6d4d8143dc59c6ecaacfc84e793.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/d9bdc81a374763121f0ec5e65dc32a1f865c0865.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/d9bdc81a374763121f0ec5e65dc32a1f865c0865.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/d9bdc81a374763121f0ec5e65dc32a1f865c0865.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/d9bdc81a374763121f0ec5e65dc32a1f865c0865.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/d9bdc81a374763121f0ec5e65dc32a1f865c0865.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/d9bdc81a374763121f0ec5e65dc32a1f865c0865.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/d9bdc81a374763121f0ec5e65dc32a1f865c0865.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/d9bdc81a374763121f0ec5e65dc32a1f865c0865.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/d9bdc81a374763121f0ec5e65dc32a1f865c0865.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/d9bdc81a374763121f0ec5e65dc32a1f865c0865.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/93847205023f2af5731d3071926b924fd356e819.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/93847205023f2af5731d3071926b924fd356e819.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/93847205023f2af5731d3071926b924fd356e819.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/93847205023f2af5731d3071926b924fd356e819.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/93847205023f2af5731d3071926b924fd356e819.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/93847205023f2af5731d3071926b924fd356e819.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/93847205023f2af5731d3071926b924fd356e819.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/93847205023f2af5731d3071926b924fd356e819.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/93847205023f2af5731d3071926b924fd356e819.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/93847205023f2af5731d3071926b924fd356e819.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/981891afa7018dfc408858a02271879ed88325fc.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/981891afa7018dfc408858a02271879ed88325fc.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/981891afa7018dfc408858a02271879ed88325fc.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/981891afa7018dfc408858a02271879ed88325fc.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/981891afa7018dfc408858a02271879ed88325fc.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/981891afa7018dfc408858a02271879ed88325fc.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/981891afa7018dfc408858a02271879ed88325fc.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/981891afa7018dfc408858a02271879ed88325fc.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/981891afa7018dfc408858a02271879ed88325fc.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/981891afa7018dfc408858a02271879ed88325fc.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/038c375267b54763a0d391c805ecdb58c1538345.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/038c375267b54763a0d391c805ecdb58c1538345.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/038c375267b54763a0d391c805ecdb58c1538345.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/038c375267b54763a0d391c805ecdb58c1538345.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/038c375267b54763a0d391c805ecdb58c1538345.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/038c375267b54763a0d391c805ecdb58c1538345.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/038c375267b54763a0d391c805ecdb58c1538345.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/038c375267b54763a0d391c805ecdb58c1538345.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/038c375267b54763a0d391c805ecdb58c1538345.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/038c375267b54763a0d391c805ecdb58c1538345.jpg"
+        }
+      ],
+      "longitude": -1.24975,
+      "brochure": [
+        "https://lc.zoocdn.com/354b2e20b0cd9175594dc3bd1ec284f585f2ee5a.pdf",
+        "https://www.allenandharris.co.uk/property/RSH105591"
+      ],
+      "listing_date": "2023-09-30 14:38:59",
+      "thumbnail_url": "https://lid.zoocdn.com/80/60/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+      "description": "SummaryThree bedroom semi-detached house located in the popular village of Kennington. This property provides a generous amount of family living space and offers a generous size rear garden.DescriptionAllen & Harris are pleased to present this three bedroom semi-detached property located in Kennington. The property is offered with no onward chain, The ground floor of the property offers a front room, sitting room, dining room and a separate Kitchen. The first floor of the property consists of the three bedrooms and a family bathroom.Externally the property has an ample rear garden mainly laid to lawn with a patio area.Entrance PorchWood laminate flooring.Front Room 12' 2\" max x 10' 3\" ( 3.71m max x 3.12m )Bay window to front, radiator.Sitting Room  12' 1\" max x 10' 4\" ( 3.68m max x 3.15m )archway to dining room, gas fire. Door to front room.Dining Room  13' 10\" x 8' 9\" max ( 4.22m x 2.67m max )Double glazed door to rear and patio doors, radiator, wood laminate flooring.Kitchen 8' 8\" max x 5' 9\" ( 2.64m max x 1.75m )Range of eye and base level units, stainless steel sink unit, plumbing for washing machine space for gas cooker, fridge/ freezer.Bedroom One 12' 2\" max x 9' 9\" ( 3.71m max x 2.97m )Window to front, radiator.Bedroom Two  12' 1\" max x 10' 9\" ( 3.68m max x 3.28m )Window to rear, radiator.Bedroom Three 8' 9\" max x 6' 6\" ( 2.67m max x 1.98m )Window to front, radiator.Bathroom Window to side, low level W/C, hand wash basin, panel bath with shower over, radiator.Garden Mainly laid to lawn with patio area and access to garage.1. Money laundering regulations: Intending purchasers will be asked to produce identification documentation at a later stage and we would ask for your co-operation in order that there will be no delay in agreeing the sale.\r2. General: While we endeavour to make our sales particulars fair, accurate and reliable, they are only a general guide to the property and, accordingly, if there is any point which is of particular importance to you, please contact the office and we will be pleased to check the position for you, especially if you are contemplating travelling some distance to view the property.\r3. The measurements indicated are supplied for guidance only and as such must be considered incorrect.\r4. Services: Please note we have not tested the services or any of the equipment or appliances in this property, accordingly we strongly advise prospective buyers to commission their own survey or service reports before finalising their offer to purchase.\r5. These particulars are issued in good faith but do not constitute representations of fact or form part of any offer or contract. The matters referred to in these particulars should be independently verified by prospective buyers or tenants. Neither sequence (UK) limited nor any of its employees or agents has any authority to make or give any representation or warranty whatever in relation to this property.",
+      "agent_postcode": "OX4 4HX",
+      "post_town": "Oxford",
+      "details_url": "https://www.zoopla.co.uk/for-sale/details/65728439?utm_source=v1:5bWFDybfWx7C7AGpeagt7mP3PgcqjuqJ&utm_medium=api",
+      "short_description": "Three bedroom semi-detached house located in the popular village of Kennington. This property provides a generous amount of family living space and offers a generous size rear garden.",
+      "outcode": "OX1",
+      "other_image": [
+        {
+          "url": "https://lid.zoocdn.com/645/430/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/f0ec155f00717c16d19ad83f8039cddd9ea57f69.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/d3cd3f9aa224fadb3795d3c050d3ececa421ebb5.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/a5c0364796751426a28293ceab98a964207e3faf.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/e7989e36520d72b424f466bdd89f6b82d80db080.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/4b005bd5118e1b7df4143f2e2f2a12887123f123.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/271cc7aa1edfea577408d4455d076d2f96b5298f.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/412dc54eda8fe6d4d8143dc59c6ecaacfc84e793.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/d9bdc81a374763121f0ec5e65dc32a1f865c0865.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/93847205023f2af5731d3071926b924fd356e819.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/981891afa7018dfc408858a02271879ed88325fc.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/038c375267b54763a0d391c805ecdb58c1538345.jpg",
+          "description": ""
+        }
+      ],
+      "image_645_430_url": "https://lid.zoocdn.com/645/430/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+      "title": "3 bed semi-detached house for sale",
+      "county": "Oxfordshire",
+      "price": "375000",
+      "is_premium_listing": 0,
+      "listing_id": "65728439",
+      "image_caption": "",
+      "bullet": [
+        "Situated In The Village Of Kennington",
+        "Spacious Living Areas",
+        "Three Bedrooms",
+        "Generous Size Rear Garden",
+        "No Onward Chain"
+      ],
+      "image_80_60_url": "https://lid.zoocdn.com/80/60/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+      "property_number": "26",
+      "status": "for_sale",
+      "agent_name": "Allen & Harris - Oxford, Rose Hill",
+      "num_recepts": 2,
+      "property_badge": "Just added",
+      "country": "England",
+      "company_id": 14201,
+      "property_id": 17550750,
+      "first_published_date": "2024-01-05 14:28:23",
+      "displayable_address": "Bagley Close, Kennington, Oxford OX1",
+      "street_name": "Bagley Close",
+      "num_bathrooms": 1,
+      "epc_graph": [
+        "https://lc.zoocdn.com/b65ceab17e2be2dcbd88c646d8ba8d6114caeabd.png"
+      ],
+      "incode": "5LT",
+      "featured_type": "S",
+      "agent_logo": "https://st.zoocdn.com/zoopla_static_agent_logo_(592290).png",
+      "price_change": [
+        {
+          "direction": "",
+          "date": "2024-01-05 14:26:38",
+          "percent": "0%",
+          "price": 375000
+        }
+      ],
+      "agent_phone": "01865 360062",
+      "group_id": 1,
+      "image_354_255_url": "https://lid.zoocdn.com/354/255/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+      "image_url": "https://lid.zoocdn.com/645/430/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+      "last_published_date": "2024-01-05 15:34:25",
+      "original_image": [
+        "https://lc.zoocdn.com/824478cea3a835a48a012ec7499e691ec69e5390.jpg",
+        "https://lc.zoocdn.com/f0ec155f00717c16d19ad83f8039cddd9ea57f69.jpg",
+        "https://lc.zoocdn.com/d3cd3f9aa224fadb3795d3c050d3ececa421ebb5.jpg",
+        "https://lc.zoocdn.com/a5c0364796751426a28293ceab98a964207e3faf.jpg",
+        "https://lc.zoocdn.com/e7989e36520d72b424f466bdd89f6b82d80db080.jpg",
+        "https://lc.zoocdn.com/4b005bd5118e1b7df4143f2e2f2a12887123f123.jpg",
+        "https://lc.zoocdn.com/271cc7aa1edfea577408d4455d076d2f96b5298f.jpg",
+        "https://lc.zoocdn.com/412dc54eda8fe6d4d8143dc59c6ecaacfc84e793.jpg",
+        "https://lc.zoocdn.com/d9bdc81a374763121f0ec5e65dc32a1f865c0865.jpg",
+        "https://lc.zoocdn.com/93847205023f2af5731d3071926b924fd356e819.jpg",
+        "https://lc.zoocdn.com/981891afa7018dfc408858a02271879ed88325fc.jpg",
+        "https://lc.zoocdn.com/038c375267b54763a0d391c805ecdb58c1538345.jpg"
+      ]
+    }
+  ],
+  "street": "",
+  "county": "",
+  "town": "",
+  "postcode": ""
+}

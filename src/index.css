@@ -15,14 +15,17 @@ body {
   background-color: #141414;
   height: 1000vh;
 }
-.values,
-.values * {
+.pricing-details,
+.pricing-details * {
   /* outline: 1px dotted red; */
 }
 
 
 .left-top-purple-gradient {
   background: linear-gradient(121deg, #703BF7 -49.01%, rgba(112, 59, 247, 0.00) 13.65%);
+}
+.black-grey-gradient {
+  background: linear-gradient(90deg, #1A1A1A 0%, rgba(26, 26, 26, 0.00) 100%);
 }
 
 .grey-box-shadow {

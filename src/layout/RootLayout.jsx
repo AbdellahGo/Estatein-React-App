@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import { Footer, NavBar } from '../components'
 import { ThemeContext } from '../contextApi'
-import { container } from '../classes'
-import { bigGroupLines } from '../assets'
 import Alert from '../components/alert/Alert'
 
 const RootLayout = () => {

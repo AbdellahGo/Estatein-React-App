@@ -1,6 +1,6 @@
 import React from 'react'
 import { arrowTopRightGrey } from '../../assets'
-import { NavLink, useNavigate } from 'react-router-dom'
+import {useNavigate } from 'react-router-dom'
 const ServicesList = ({ content }) => {
     const navigate = useNavigate()
     const handleNavigate = (page) => {

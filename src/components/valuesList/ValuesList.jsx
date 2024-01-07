@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { margin_top2, paragraph_classes } from '../../classes'
 import Button from '../button/Button'
-import { bigGroupLines, groupLines } from '../../assets'
+import {groupLines } from '../../assets'
 
 const ValuesList = ({ title, description, content, link }) => {
 

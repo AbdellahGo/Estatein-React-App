@@ -1,21 +1,20 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { container, padding_x, header_button_styles } from '../../classes'
 import SectionHeader from '../sectionHeader/SectionHeader'
-import { propertiesDetails } from '../../demoData/data.js'
 import HorizontalScrollBar from '../horizontalScrollBar/HorizontalScrollBar.jsx'
 import PropertiesList from '../propertiesList/PropertiesList.jsx'
-import {findRest, handleMediaChange} from '../../utils/utils'
+import { findRest, handleMediaChange } from '../../utils/utils'
 
-
-const Properties = () => {
+const Properties = ({ title, description, propertiesList, isLoading }) => {
     const [range, setRange] = useState(0) //? Represents the range of items to display
     const [finalRest, setFinalRest] = useState(null) //? Represents the final number of remaining items
     const [initNumberShowingItems, setInitNumberShowingItems] = useState(3) //? Represents the initial number of items to show
     const [initShowingItems, setInitShowingItems] = useState(initNumberShowingItems) //? Represents the current number of items being shown
-    const { title, description, propertiesList } = propertiesDetails //? Destructures properties from propertiesDetails object
     const propertiesContainer = useRef(null) //? References the properties container element
     const listItemsLength = propertiesList.length // ?Stores the length of the propertiesList array
     const restOfListItems = propertiesList.slice(initShowingItems).length //? Stores the length of the remaining propertiesList items
+
+
 
     const slidLeft = () => {
         if (initShowingItems > initNumberShowingItems) {
@@ -47,17 +46,17 @@ const Properties = () => {
         }, 500)
     }
 
-     
+
     useEffect(() => {
         window.addEventListener('resize', () => handleMediaChange(setInitNumberShowingItems, setInitShowingItems, setRange, 1, 2, 3));
-        handleMediaChange( setInitNumberShowingItems, setInitShowingItems, setRange, 1, 2, 3);
+        handleMediaChange(setInitNumberShowingItems, setInitShowingItems, setRange, 1, 2, 3);
         return () => window.removeEventListener('resize', handleMediaChange);
     }, []);
     useEffect(() => {
         findRest(initNumberShowingItems, listItemsLength, propertiesList, setFinalRest) //? Calculates and sets the finalRest value
     }, [initShowingItems])
 
-
+    if (isLoading) return 'Loading...'
 
     return (
         <div className={`xxl:mt-115 xl:mt-115 mt-80 ${container} ${padding_x}`} id='properties'>

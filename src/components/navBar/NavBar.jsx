@@ -91,6 +91,12 @@ const NavBar = ({ setNavBarHeight }) => {
             rounded-10 xxl:px-24 md:px-20 p-16 xxl:py-14 md:py-12 font-medium xxl:text-18 text-14'
               onClick={closeMenuWhenClickLink}>
               Contact Us</Link>
+            {/* //? */}
+            <Link to='/property-details/65728439' className='text-white border-1 border-grey-15 bg-grey-08 Mmd:block Mmd:w-full text-center
+            rounded-10 xxl:px-24 md:px-20 p-16 xxl:py-14 md:py-12 font-medium xxl:text-18 text-14'
+              onClick={closeMenuWhenClickLink}>
+              details</Link>
+            {/* //? */}
           </div>
           <div className='md:hidden block menu-toggle cursor-pointer' onClick={() => setToggleMenu((prev) => !prev)}>
             <img src={menu} alt="menu icon" />

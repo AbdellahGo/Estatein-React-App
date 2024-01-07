@@ -2,7 +2,8 @@ import {
     money, sun, building, shop, bed, bathroom, villa,
     Profile1, Profile2, Profile3, stareRating, facebook, twitter, linkedin, youtube,
     purpleStar, hat, people, image1, image2, image3, image4, lightning, checkerboard,
-    chessBoardPlus, circularStatistics, dataBase, fire, lamp, magicStars, magnifier, signal, tags
+    chessBoardPlus, circularStatistics, dataBase, fire, lamp, magicStars, magnifier, signal, tags,
+    miniLogo, location, phone, purpleMessage, whiteLocation, whiteMessage, whitePhone
 } from '../assets'
 
 export const pagesLinks = [
@@ -1076,13 +1077,13 @@ export const footerData = {
         [
             {
                 id: 1,
-                content: 'Portfolio',
-                link: 'portfolio'
+                content: 'Search & Filter',
+                link: 'search_and_Filter'
             },
             {
                 id: 2,
-                content: 'Categories',
-                link: 'categories'
+                content: 'Make it Happen',
+                link: 'make_it_happen'
             },
         ],
         [
@@ -1522,4 +1523,273 @@ export const investmentsFeaturesData = {
         },
     ]
 
+}
+
+export const propertiesHeaderData = {
+    title: 'Find Your Dream Property',
+    description: 'Welcome to Estatein, where your dream property awaits in every corner of our beautiful world. Explore our curated selection of properties, each offering a unique story and a chance to redefine your life. With categories to suit every dreamer, your journey',
+}
+
+
+export const contactUsHeaderData = {
+    title: 'Get in Touch with Estatein',
+    description: "Welcome to Estatein's Contact Us page. We're here to assist you with any inquiries, requests, or feedback you may have. Whether you're looking to buy or sell a property, explore investment opportunities, or simply want to connect, we're just a message away. Reach out to us, and let's start a conversation.",
+    headerList: [
+        {
+            id: 1,
+            link: 'our_offices',
+            icon: purpleMessage,
+            title: 'info@estatein.com'
+        },
+        {
+            id: 2,
+            link: 'our_offices',
+            icon: phone,
+            title: 'info@estatein.com'
+        },
+        {
+            id: 3,
+            link: 'our_offices',
+            icon: location,
+            title: 'info@estatein.com'
+        },
+        {
+            id: 4,
+            link: 'our_offices',
+            icon: miniLogo,
+            links: [
+                { id: 1, link: 'https://www.instagram.com/', title: 'Instagram' },
+                { id: 2, link: 'https://www.linkedin.com/', title: 'LinkedIn' },
+                { id: 3, link: 'https://www.facebook.com/', title: 'Facebook' },
+            ]
+        },
+    ]
+
+}
+
+export const ourOfficesData = {
+    title: 'Discover Our Office Locations',
+    description: "Estatein is here to serve you across multiple locations. Whether you're looking to meet our team, discuss real estate opportunities, or simply drop by for a chat, we have offices conveniently located to serve your needs. Explore the categories below to find the Estatein office nearest to you",
+    filter: [
+        { id: 1, title: 'All', value: 'all' },
+        { id: 2, title: 'Regional', value: 'regional' },
+        { id: 3, title: 'International', value: 'international' },
+    ],
+    officesList: [
+        {
+            id: 1,
+            type: 'Main Headquarters',
+            value: 'international',
+            title: '123 Estatein Plaza, City Center, Metropolis',
+            desc: 'Our main headquarters serve as the heart of Estatein. Located in the bustling city center, this is where our core team of experts operates, driving the excellence and innovation that define us.',
+            link: 'https://www.google.com/search?q=123EstateinPlazaCityCenterMetropolis',
+            contact: [
+                { id: 1, title: 'info@estatein.com', icon: whiteMessage },
+                { id: 2, title: '+1 (123) 456-7890', icon: whitePhone },
+                { id: 3, title: 'Metropolis', icon: whiteLocation },
+            ]
+        },
+        {
+            id: 2,
+            type: 'Regional Offices',
+            value: 'regional',
+            title: '456 Urban Avenue, Downtown District, Metropolis',
+            desc: "Estatein's presence extends to multiple regions, each with its own dynamic real estate landscape. Discover our regional offices, staffed by local experts who understand the nuances of their respective markets.",
+            link: 'https://www.google.com/search?q=456UrbanAvenueDowntownDistrictMetropolis',
+            contact: [
+                { id: 1, title: 'info@restatein.com', icon: whiteMessage },
+                { id: 2, title: '+1 (123) 628-7890', icon: whitePhone },
+                { id: 3, title: 'Metropolis', icon: whiteLocation },
+            ]
+        },
+    ]
+
+}
+
+export const estateinsWorldData = {
+    title: "Explore Estatein's World",
+    description: 'Step inside the world of Estatein, where professionalism meets warmth, and expertise meets passion. Our gallery offers a glimpse into our team and workspaces, inviting you to get to know us better.'
+}
+
+export const contactFormData = {
+    title: "Let's Connect",
+    description: "We're excited to connect with you and learn more about your real estate goals. Use the form below to get in touch with Estatein. Whether you're a prospective client, partner, or simply curious about our services, we're here to answer your questions and provide the assistance you need.",
+    inputsList1: [
+        { id: 1, type: 'text', placeholder: 'Enter First Name', label: 'First Name' },
+        { id: 2, type: 'text', placeholder: 'Enter Last Name', label: 'Last Name' },
+        { id: 3, type: 'email', placeholder: 'Enter your Email', label: 'Email' },
+    ],
+    inputsList2: [
+        { id: 4, type: 'number', placeholder: 'Enter Phone Number', label: 'Phone' },
+        {
+            id: 5,
+            type: 'select',
+            placeholder: 'Select Inquiry Type',
+            label: 'Inquiry Type',
+            options: [
+                { id: 1, value: 'property', text: 'Property Inquiry' },
+                { id: 2, value: 'appointment', text: 'Appointment Request' },
+                { id: 3, value: 'general', text: 'General Information Request' },
+                { id: 4, value: 'mortgage', text: 'Mortgage Inquiry' },
+            ]
+        },
+        {
+            id: 6,
+            type: 'select',
+            placeholder: 'Select',
+            label: 'How Did You Hear About Us?',
+            options: [
+                { id: 1, value: 'internet', text: 'Internet Search' },
+                { id: 2, value: 'social_media', text: 'Social Media' },
+                { id: 3, value: 'friend', text: 'From a Friend' },
+                { id: 4, value: 'other', text: 'Other' },
+            ]
+        },
+    ]
+}
+
+export const propertyContactFormData = {
+    title: 'Inquire About Seaside Serenity Villa',
+    description: 'Interested in this property? Fill out the form below, and our real estate experts will get back to you with more details, including scheduling a viewing and answering any questions you may have.',
+    inputsList: [
+        {
+            id: 1,
+            label: 'First Name',
+            placeholder: 'Enter First Name',
+            type: 'text'
+        },
+        {
+            id: 2,
+            label: 'Last Name',
+            placeholder: 'Enter Last Name',
+            type: 'text'
+        },
+        {
+            id: 3,
+            label: 'Email',
+            placeholder: 'Enter your Email',
+            type: 'email'
+        },
+        {
+            id: 4,
+            label: 'Phone',
+            placeholder: 'Enter Phone Number',
+            type: 'number'
+        },
+    ]
+}
+
+
+export const pricingDetailsData = {
+    title: 'Comprehensive Pricing Details',
+    description: "At Estatein, transparency is key. We want you to have a clear understanding of all costs associated with your property investment. Below, we break down the pricing for Seaside Serenity Villa to help you make an informed decision",
+    note: 'The figures provided above are estimates and may vary depending on the property, location, and individual circumstances.',
+    additionalFees: {
+        title: 'Additional Fees',
+        list: [
+            {
+                id: 1,
+                title: 'Property Transfer Tax',
+                price: '$25,000',
+                note: 'Based on the sale price and local regulations'
+            },
+            {
+                id: 2,
+                title: 'Legal Fees',
+                price: '$3,000',
+                note: 'Approximate cost for legal services, including title transfer'
+            },
+            {
+                id: 3,
+                title: 'Home Inspection',
+                price: '$500',
+                note: 'Recommended for due diligence'
+            },
+            {
+                id: 4,
+                title: 'Property Insurance',
+                price: '$1,200',
+                note: 'Annual cost for comprehensive property insurance'
+            },
+            {
+                id: 5,
+                title: 'Mortgage Fees',
+                price: 'Varies',
+                note: 'If applicable, consult with your lender for specific details'
+            },
+        ]
+    },
+    monthlyCosts: {
+        title: 'Monthly Costs',
+        list: [
+            {
+                id: 1,
+                title: 'Property Taxes',
+                price: '$1,250',
+                note: 'Approximate monthly property tax based on the sale price and local rates'
+            },
+            {
+                id: 2,
+                title: "Homeowners' Association Fee",
+                price: '$300',
+                note: 'Monthly fee for common area maintenance and security'
+            },
+        ]
+    },
+    totalInitialCosts: {
+        title: 'Total Initial Costs',
+        list: [
+            {
+                id: 1,
+                title: 'Listing Price',
+                price: '$1,250,000',
+            },
+            {
+                id: 2,
+                title: 'Additional Fees',
+                price: '$29,700',
+                note: 'Property transfer tax, legal fees, inspection, insurance'
+            },
+            {
+                id: 3,
+                title: 'Down Payment',
+                price: '$250,000',
+                note: '20%'
+            },
+            {
+                id: 4,
+                title: 'Mortgage Amount',
+                price: '$1,000,000',
+                note: 'If applicable'
+            },
+        ]
+    },
+    monthlyExpenses: {
+        title: 'Monthly Expenses',
+        list: [
+            {
+                id: 1,
+                title: 'Property Taxes',
+                price: '$1,250',
+            },
+            {
+                id: 2,
+                title: "Homeowners' Association Fee",
+                price: '$300',
+                note: 'Property transfer tax, legal fees, inspection, insurance'
+            },
+            {
+                id: 3,
+                title: 'Mortgage Payment',
+                price: 'Varies based on terms and interest rate',
+                note: 'If applicable'
+            },
+            {
+                id: 4,
+                title: 'Property Insurance',
+                price: '$100',
+                note: 'Approximate monthly coste'
+            },
+        ]
+    },
 }
