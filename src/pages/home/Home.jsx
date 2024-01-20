@@ -3,9 +3,10 @@ import { HeroSection, Properties, Testimonials, FAQ, CTA } from '../../component
 import { ThemeContext } from '../../contextApi'
 import { propertiesDetails } from '../../demoData/data'
 import { useGetPropertiesListQuery } from '../../redux/RTKApis/propertiesApi'
+import Loader from '../../components/loader/Loader'
 
 const Home = () => {
-  const { title, description } = propertiesDetails
+  const { title, description, link, linkContent } = propertiesDetails
   const { navBarHeight } = useContext(ThemeContext)
   const { data, isLoading } = useGetPropertiesListQuery()
 
@@ -17,7 +18,8 @@ const Home = () => {
     <main>
       <div style={{ paddingTop: `${navBarHeight}px` }}>
         <HeroSection />
-        {isLoading ? 'Loading...' : <Properties title={title} description={description} propertiesList={data?.listing} />}
+        {isLoading ? <Loader title={title} description={description} link={link} linkContent={linkContent}/>
+          : <Properties title={title} description={description} propertiesList={data?.listing} link={link} linkContent={linkContent} />}
         <Testimonials />
         <FAQ />
         <CTA />

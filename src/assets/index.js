@@ -69,6 +69,11 @@ import area from './property-images/area.png'
 import greyBed from './property-images/greyBed.png'
 import greyBathroom from './property-images/greyBathroom.png'
 import whiteLightning from './whiteLightning.png'
+import key from './key.svg'
+import factory from './factory.png'
+import greyBox from './greyBox.png'
+import greyLocation from './greyLocation.png'
+import greyMoney from './greyMoney.png'
 
 
 export {
@@ -78,6 +83,6 @@ export {
     send, message, house, purpleStar, hat, people, image1, image2, image3, image4, lightning,
     checkerboard, chessBoardPlus, circularStatistics, dataBase, fire, lamp, magicStars, magnifier, signal, tags,
     search, miniLogo, location, phone, purpleMessage, whiteLocation, whiteMessage, whitePhone,
-    worldImage1, worldImage2, worldImage3, worldImage4, worldImage5, worldImage6,groupLines2, area, greyBed,
-    greyBathroom, whiteLightning
+    worldImage1, worldImage2, worldImage3, worldImage4, worldImage5, worldImage6, groupLines2, area, greyBed,
+    greyBathroom, whiteLightning, key, factory, greyBox, greyLocation, greyMoney,
 }

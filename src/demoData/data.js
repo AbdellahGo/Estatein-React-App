@@ -3,7 +3,8 @@ import {
     Profile1, Profile2, Profile3, stareRating, facebook, twitter, linkedin, youtube,
     purpleStar, hat, people, image1, image2, image3, image4, lightning, checkerboard,
     chessBoardPlus, circularStatistics, dataBase, fire, lamp, magicStars, magnifier, signal, tags,
-    miniLogo, location, phone, purpleMessage, whiteLocation, whiteMessage, whitePhone
+    miniLogo, location, phone, purpleMessage, whiteLocation, whiteMessage, whitePhone,
+    greyBox, greyLocation, greyMoney, key, factory
 } from '../assets'
 
 export const pagesLinks = [
@@ -98,6 +99,8 @@ export const heroSectionData = {
 export const propertiesDetails = {
     title: 'Featured Properties',
     description: 'Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.',
+    link: '/properties',
+    linkContent: 'View All Properties',
     propertiesList: [
         {
             "id": 1,
@@ -1792,4 +1795,451 @@ export const pricingDetailsData = {
             },
         ]
     },
+}
+
+
+
+export const searchAndFiltersData = {
+    filtersIcons: [greyLocation, factory, greyMoney, greyBox, key],
+    filtersType: ['cities', 'Property Type', 'Pricing Range', 'Property Size', 'Property Status'],
+    filtersList: [
+        [
+            {
+                id: 1,
+                value: 'Manchester',
+                text: 'Manchester'
+            },
+            {
+                id: 2,
+                value: 'Liverpool',
+                text: 'Liverpool'
+            },
+            {
+                id: 3,
+                value: 'Wakefield',
+                text: 'Wakefield'
+            },
+            {
+                id: 4,
+                value: 'Oxford',
+                text: 'Oxford'
+            },
+            {
+                id: 5,
+                value: 'Birmingham',
+                text: 'Birmingham'
+            },
+            {
+                id: 6,
+                value: 'Leeds',
+                text: 'Leeds'
+            },
+        ],
+        [
+            {
+                id: 1,
+                value: 'detached',
+                text: 'Detached house',
+            },
+            {
+                id: 2,
+                value: 'farms_land',
+                text: 'Farmhouse',
+            },
+            {
+                id: 3,
+                value: 'flats',
+                text: 'Flat',
+            },
+            {
+                id: 4,
+                value: 'End terrace house',
+                text: 'End terrace house',
+            },
+            {
+                id: 5,
+                value: 'Maisonette',
+                text: 'Maisonette',
+            },
+            {
+                id: 6,
+                value: 'terraced',
+                text: 'Terraced house',
+            },
+            {
+                id: 7,
+                value: 'semi_detached',
+                text: 'Semi-detached house',
+            },
+            {
+                id: 8,
+                value: 'Cottage',
+                text: 'Cottage',
+            },
+            {
+                id: 9,
+                value: 'bungalow',
+                text: 'Detached bungalow',
+            },
+            {
+                id: 10,
+                value: 'land',
+                text: 'Land',
+            },
+            {
+                id: 11,
+                value: 'hospitality',
+                text: 'Hospitality',
+            },
+            {
+                id: 12,
+                value: 'offices',
+                text: 'Offices',
+            },
+            {
+                id: 13,
+                value: 'park_home',
+                text: 'Park Home',
+            },
+        ],
+        [
+            {
+                id: 1,
+                value: '100000|300000',
+                text: '$100,000 - $300,000'
+            },
+            {
+                id: 2,
+                value: '300000|600000',
+                text: '$300,000 - $600,000'
+            },
+            {
+                id: 3,
+                value: '600000|800000',
+                text: '$600,000 - $800,000'
+            },
+            {
+                id: 4,
+                value: '800000|1000000',
+                text: '$800,000 - $1,000,000'
+            },
+            {
+                id: 5,
+                value: '1000000|2000000',
+                text: '$1,000,000 - $2,000,000'
+            },
+        ],
+        [
+            {
+                id: 1,
+                value: '100|300',
+                text: '100m² - 300m²',
+            },
+            {
+                id: 2,
+                value: '300|450',
+                text: '300m² - 450m²',
+            },
+            {
+                id: 3,
+                value: '450|650',
+                text: '450m² - 650m²',
+            },
+            {
+                id: 4,
+                value: '650|880',
+                text: '650m² - 880m²',
+            },
+        ],
+        [
+            {
+                id: 1,
+                value: 'sale',
+                text: 'Sale'
+            },
+            {
+                id: 2,
+                value: 'rent',
+                text: 'Rent'
+            },
+        ]
+    ]
+}
+
+export const searchedPropertyData = {
+    title: 'Discover a World of Possibilities',
+    description: 'Our portfolio of properties is as diverse as your dreams. Explore the following categories to find the perfect property that resonates with your vision of home'
+}
+
+
+export const propertiesFormData = {
+    title: "Let's Make it Happen",
+    description: "Ready to take the first step toward your dream property? Fill out the form below, and our real estate wizards will work their magic to find your perfect match. Don't wait; let's embark on this exciting journey together.",
+    preferredContact: {
+        label: 'Preferred Contact Method',
+        contact: [
+            {
+                id: 1,
+                text: 'Phone Number',
+                icon: whitePhone,
+            },
+            {
+                id: 2,
+                text: 'Email',
+                icon: whiteMessage,
+            }
+        ]
+    },
+    inputsList: [
+        [
+            {
+                id: 1,
+                label: 'First Name',
+                type: 'text',
+                text: 'Enter First Name'
+            },
+            {
+                id: 2,
+                label: 'Last Name',
+                type: 'text',
+                text: 'Enter Last Name'
+            },
+            {
+                id: 3,
+                label: 'Email',
+                type: 'email',
+                text: 'Enter your Email'
+            },
+            {
+                id: 4,
+                label: 'Phone',
+                type: 'number',
+                text: 'Enter Phone Number'
+            },
+        ],
+        [
+            {
+                id: 5,
+                label: 'Preferred Location',
+                options: [
+                    {
+                        id: 1,
+                        value: 'Select Location',
+                        text: 'Select Location'
+                    },
+                    {
+                        id: 2,
+                        value: 'Manchester',
+                        text: 'Manchester'
+                    },
+                    {
+                        id: 3,
+                        value: 'Liverpool',
+                        text: 'Liverpool'
+                    },
+                    {
+                        id: 4,
+                        value: 'Wakefield',
+                        text: 'Wakefield'
+                    },
+                    {
+                        id: 5,
+                        value: 'Oxford',
+                        text: 'Oxford'
+                    },
+                    {
+                        id: 6,
+                        value: 'Birmingham',
+                        text: 'Birmingham'
+                    },
+                    {
+                        id: 7,
+                        value: 'Leeds',
+                        text: 'Leeds'
+                    },
+                ]
+            },
+            {
+                id: 6,
+                label: 'Property Type',
+                options: [
+                    {
+                        id: 1,
+                        value: 'Select Property Type',
+                        text: 'Select Property Type',
+                    },
+                    {
+                        id: 2,
+                        value: 'detached',
+                        text: 'Detached house',
+                    },
+                    {
+                        id: 3,
+                        value: 'farms_land',
+                        text: 'Farmhouse',
+                    },
+                    {
+                        id: 4,
+                        value: 'flats',
+                        text: 'Flat',
+                    },
+                    {
+                        id: 5,
+                        value: 'End terrace house',
+                        text: 'End terrace house',
+                    },
+                    {
+                        id: 6,
+                        value: 'Maisonette',
+                        text: 'Maisonette',
+                    },
+                    {
+                        id: 7,
+                        value: 'terraced',
+                        text: 'Terraced house',
+                    },
+                    {
+                        id: 8,
+                        value: 'semi_detached',
+                        text: 'Semi-detached house',
+                    },
+                    {
+                        id: 9,
+                        value: 'Cottage',
+                        text: 'Cottage',
+                    },
+                    {
+                        id: 10,
+                        value: 'bungalow',
+                        text: 'Detached bungalow',
+                    },
+                    {
+                        id: 11,
+                        value: 'land',
+                        text: 'Land',
+                    },
+                    {
+                        id: 12,
+                        value: 'hospitality',
+                        text: 'Hospitality',
+                    },
+                    {
+                        id: 13,
+                        value: 'offices',
+                        text: 'Offices',
+                    },
+                    {
+                        id: 14,
+                        value: 'park_home',
+                        text: 'Park Home',
+                    },
+                ]
+            },
+            {
+                id: 7,
+                label: 'No. of Bathrooms',
+                options: [
+                    {
+                        id: 1,
+                        value: 'Select no. of Bedrooms',
+                        text: 'Select no. of Bedrooms'
+                    },
+                    {
+                        id: 2,
+                        value: '1',
+                        text: '1'
+                    },
+                    {
+                        id: 3,
+                        value: '2',
+                        text: '2'
+                    },
+                    {
+                        id: 4,
+                        value: '3',
+                        text: '3'
+                    },
+                    {
+                        id: 5,
+                        value: '+4',
+                        text: '+4'
+                    },
+                ]
+            },
+            {
+                id: 8,
+                label: 'No. of Bedrooms',
+                options: [
+                    {
+                        id: 1,
+                        value: 'Select no. of Bedrooms',
+                        text: 'Select no. of Bedrooms'
+                    },
+                    {
+                        id: 2,
+                        value: '1',
+                        text: '1'
+                    },
+                    {
+                        id: 3,
+                        value: '2',
+                        text: '2'
+                    },
+                    {
+                        id: 4,
+                        value: '3',
+                        text: '3'
+                    },
+                    {
+                        id: 5,
+                        value: '+4',
+                        text: '+4'
+                    },
+                ]
+            },
+        ],
+        {
+            id: 9,
+            label: 'Budget',
+            options: [
+                {
+                    id: 1,
+                    value: 'Select Budget',
+                    text: 'Select Budget'
+                },
+                {
+                    id: 2,
+                    value: '100000|300000',
+                    text: '$100,000 - $300,000'
+                },
+                {
+                    id: 3,
+                    value: '300000|600000',
+                    text: '$300,000 - $600,000'
+                },
+                {
+                    id: 4,
+                    value: '600000|800000',
+                    text: '$600,000 - $800,000'
+                },
+                {
+                    id: 5,
+                    value: '800000|1000000',
+                    text: '$800,000 - $1,000,000'
+                },
+                {
+                    id: 6,
+                    value: '1000000|2000000',
+                    text: '$1,000,000 - $2,000,000'
+                },
+
+            ]
+        },
+        {
+            id: '10',
+            label: 'Message',
+            text: 'Enter your Message here..'
+        }
+
+    ]
 }

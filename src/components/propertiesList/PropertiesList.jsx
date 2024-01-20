@@ -6,6 +6,11 @@ import { bathroom, bed, villa } from '../../assets'
 const PropertiesList = ({ content, propertiesContainer }) => {
   const [isReadMore, setIsReadMore] = useState(null)
 
+  const removeHtmlTags = (html) => {
+    var doc = new DOMParser().parseFromString(html, 'text/html');
+    return doc.body.textContent || "";
+  }
+
   return (
     <div ref={propertiesContainer}
       className='properties grid lg:grid-cols-3 md:grid-cols-2 xxl:gap-30 md:gap-20 gap-30'>
@@ -14,25 +19,25 @@ const PropertiesList = ({ content, propertiesContainer }) => {
           <img src={original_image[0]} alt="property image" className='text-white rounded-10 xxl:h-[318px] xl::h-[255px] md:h-[200px] h-[373px] object-cover' />
           <div className={`content flex flex-col ${!isReadMore ? 'justify-between' : ''} flex-1 xxl:gap-30 md:gap-24 gap-20`}>
             <h3 className='xxl:text-24 md:text-20 text-18 text-white font-semibold'>{title}</h3>
-            <p className={`${paragraph_classes}`}>{short_description ? isReadMore === listing_id ? short_description : `${short_description?.substring(0, 74)}...` : 'not found'}
+            <p className={`${paragraph_classes}`}>{short_description ? isReadMore === listing_id ? removeHtmlTags(short_description) : `${removeHtmlTags(short_description)?.substring(0, 74)}...` : 'not found'}
               <button className='text-white' style={{ textDecoration: 'underline #999' }}
                 onClick={() => setIsReadMore(isReadMore === listing_id ? null : listing_id)}>Read More</button>
             </p>
             <div className='flex gap-10 flex-wrap '>
-              <div className='flex gap-4 justify-center items-center py-8 px-14 border-1 border-grey-15 bg-grey-10 rounded-28 xxl:text-18 
+              <div className='flex justify-center gap-8 items-center py-8 px-14 border-1 border-grey-15 bg-grey-10 rounded-28 xxl:text-18 
                       text-14 text-white font-medium flex-auto'>
                 <img src={bed} alt='bed icon' />
-                {num_bedrooms ? num_bedrooms : 0}
+                <span>{num_bedrooms ? num_bedrooms : 0}</span>
               </div>
-              <div className='flex gap-4 justify-center items-center py-8 px-14 border-1 border-grey-15 bg-grey-10 rounded-28 xxl:text-18 
+              <div className='flex justify-center gap-8 items-center py-8 px-14 border-1 border-grey-15 bg-grey-10 rounded-28 xxl:text-18 
                       text-14 text-white font-medium flex-auto'>
                 <img src={bathroom} alt='bathroom icon' />
-                {num_bathrooms ? num_bathrooms : 0}
+                <span>{num_bathrooms ? num_bathrooms : 0}</span>
               </div>
-              <div className='flex gap-4 justify-center items-center py-8 px-14 border-1 border-grey-15 bg-grey-10 rounded-28 xxl:text-18 
+              <div className='flex justify-center gap-8 items-center py-8 px-14 border-1 border-grey-15 bg-grey-10 rounded-28 xxl:text-18 
                       text-14 text-white font-medium flex-auto'>
                 <img src={villa} alt='villa icon' />
-                {property_type ? property_type : 'villa'}
+                <span>{property_type ? property_type : 'villa'}</span>
               </div>
             </div>
             <div className='flex xl:flex-row md:flex-col Msm:flex-wrap justify-between xxl:gap-50 xl:gap-35 md:gap-20 Mmd:gap-30'>

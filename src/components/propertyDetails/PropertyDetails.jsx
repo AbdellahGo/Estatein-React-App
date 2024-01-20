@@ -4,7 +4,7 @@ import { area, greyBathroom, greyBed, whiteLightning } from '../../assets'
 
 const PropertyDetails = ({ content }) => {
   const { short_description, num_bathrooms, num_bedrooms, floor_area, bullet } = content
-  const areaValue = floor_area ? `${floor_area.max_floor_area.value} Square Feet` : 'not Found'
+  const areaValue = floor_area ? `${floor_area.max_floor_area?.value} Square Feet` : 'not Found'
 
   const removeHtmlTags = (html) => {
     var doc = new DOMParser().parseFromString(html, 'text/html');

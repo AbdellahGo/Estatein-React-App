@@ -27,3 +27,6 @@ export {default as PropertyDetailsHeader} from './propertyDetailsHeader/Property
 export {default as PropertyImages} from './propertyImages/PropertyImages'
 export {default as PropertyContactForm} from './propertyContactForm/PropertyContactForm'
 export {default as PricingDetails} from './pricingDetails/PricingDetails'
+export {default as SearchedProperty} from './searchedProperty/SearchedProperty'
+export {default as suggestedSearches} from './suggestedSearches/SuggestedSearches'
+export {default as PropertiesForm} from './propertiesForm/PropertiesForm'

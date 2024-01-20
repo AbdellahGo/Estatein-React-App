@@ -7,17 +7,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* outline: 1px dotted red; */
 }
 
 body {
   font-family: Urbanist;
   background-color: #141414;
-  height: 1000vh;
-}
-.pricing-details,
-.pricing-details * {
-  /* outline: 1px dotted red; */
 }
 
 
@@ -45,17 +39,17 @@ nav .navigation-bar ul a:hover {
   transition-delay: 0.2s;
 }
 
-@media screen and (max-width: 1919.98px) and (min-width: 768px) {
+@media screen and (max-width: 1919.98px) and (min-width: 992px) {
   nav .navigation-bar ul a.active,
   nav .navigation-bar ul a:hover {
     padding: 12px 20px;
   }
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 991.98px) {
   nav .navigation-bar ul a.active,
   nav .navigation-bar ul a:hover {
-    padding: 15px;
+    padding: 16px;
   }
 }
 
@@ -194,4 +188,102 @@ nav .navigation-bar ul a:hover {
   -moz-transition:transform 0.3s;
   -ms-transition:transform 0.3s;
   -o-transition:transform 0.3s;
+}
+
+
+.loader-to-left {
+  animation-name: loader-to-left;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.loader-to-right {
+  animation-name: loader-to-right;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes  loader-to-left {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+to {
+  transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+}
+  
+}
+@keyframes  loader-to-right {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+  
+}
+
+
+
+/* suggested-searches */
+.suggested-searches::-webkit-scrollbar {
+  background-color: #141414;
+  border: 1px solid #262626;
+  width: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.suggested-searches::-webkit-scrollbar-thumb {
+  background-color: #4C4C4C;
+  width: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+
+
+/* propertyImages component Scroll */
+.scroll-images::-webkit-scrollbar {
+  background-color: #141414;
+  border: 1px solid #262626;
+  height: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.scroll-images::-webkit-scrollbar-thumb {
+  background-color: #4C4C4C;
+  height: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }

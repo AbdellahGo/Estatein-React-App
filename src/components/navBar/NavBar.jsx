@@ -58,7 +58,7 @@ const NavBar = ({ setNavBarHeight }) => {
   return (
     <nav ref={navBar} className={`fixed left-[50%] translate-x-[-50%] w-full z-[1000] border-y-1 border-y-grey-15 bg-grey-10`}>
       <div className={`banner ${banner ? 'block' : 'hidden'} bg-grey-10`}>
-        <div className={`xxl:py-18 md:py-14 Mmd:flex justify-center items-center pt-40 pb-20 ${padding_x} text-center  relative`}
+        <div className={`xxl:py-18 md:py-14 Mmd:flex sm:flex-row Msm:flex-col gap-10 justify-center items-center pt-40 pb-20 ${padding_x} text-center  relative`}
           style={{ background: `url(${bigGroupLines})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
           <p className='xxl:text-18 md:text-14 text-12 text-white font-medium'>✨Discover Your Dream Property with Estatein
             <NavLink to='/services' className='underline xxl:ml-10 ml-6'>Learn More</NavLink>
@@ -76,27 +76,21 @@ const NavBar = ({ setNavBarHeight }) => {
             <img src={logo} alt="logo" />
           </NavLink>
           <div ref={menuEl} className={`menu ${toggleMenu ? 'move-to-left-anime' : 'move-to-right-anime'} flex bg-grey-10 Mmd:border-1 Mmd:border-grey-15 
-          xxl:w-[62%] xl:w-[62%] lg:w-[68%] md:w-[75%] sm:w-[350px] Msm:w-[240px] Mmd:h-[350px] 
-          Mmd:px-20 Mmd:py-20 justify-between items-center md:flex-row flex-col  Mmd:absolute ${banner ? 'top-[125%]' : 'top-[155%]'} right-20 Mmd:rounded-10`}
+            xxl:w-[62%] xl:w-[62%] lg:w-[68%] md:w-[75%] sm:w-[350px] Msm:w-[240px] Mmd:h-[350px] 
+            Mmd:px-20 Mmd:py-20 justify-between items-center md:flex-row flex-col  Mmd:absolute ${banner ? 'top-[125%]' : 'top-[155%]'} right-20 Mmd:rounded-10`}
             style={toggleMenu ? { display: 'flex' } : {}}>
             <ul className='flex md:flex-row flex-col Mmd:w-full xxl:gap-30 md:gap-24 gap-10 items-center text-white'>
               {pagesLinks.map(({ id, text, link }) => (
                 <li key={id} className='Mmd:w-full'>
-                  <NavLink to={link} className='block Mmd:text-center Mmd:p-16 font-medium xxl:text-18 text-14 
-                  xxl:rounded-10 md:rounded-8 rounded-10' onClick={closeMenuWhenClickLink}>{text}</NavLink>
+                  <NavLink to={link} className='block Mmd:text-center Mmd:p-16 font-medium xxl:text-18 text-14
+                    xxl:rounded-10 md:rounded-8 rounded-10' onClick={closeMenuWhenClickLink}>{text}</NavLink>
                 </li>
               ))}
             </ul>
             <Link to='/contact' className='text-white border-1 border-grey-15 bg-grey-08 Mmd:block Mmd:w-full text-center
-            rounded-10 xxl:px-24 md:px-20 p-16 xxl:py-14 md:py-12 font-medium xxl:text-18 text-14'
+            rounded-10 xxl:px-24 lg:px-20 p-16 xxl:py-14 lg:py-12 font-medium xxl:text-18 text-14'
               onClick={closeMenuWhenClickLink}>
               Contact Us</Link>
-            {/* //? */}
-            <Link to='/property-details/65728439' className='text-white border-1 border-grey-15 bg-grey-08 Mmd:block Mmd:w-full text-center
-            rounded-10 xxl:px-24 md:px-20 p-16 xxl:py-14 md:py-12 font-medium xxl:text-18 text-14'
-              onClick={closeMenuWhenClickLink}>
-              details</Link>
-            {/* //? */}
           </div>
           <div className='md:hidden block menu-toggle cursor-pointer' onClick={() => setToggleMenu((prev) => !prev)}>
             <img src={menu} alt="menu icon" />

@@ -24,28 +24,30 @@ const PropertyImages = ({ content }) => {
             </div>
             <div className='xxl:mt-50 lg:mt-40 mt-30 rounded-12 xxl:p-50 lg:p-40 p-20 border-1 border-grey-15 bg-grey-10'>
                 <div className='flex md:flex-col flex-col-reverse xxl:gap-30 gap-20'>
-                    <div className='flex border-1 bg-grey-08 border-grey-15 rounded-12 xxl:p-20 p-10 xxl:gap-20 gap-10'>
-                        {listShowingImg.map((img, i) => (
-                            <div key={i} className={`small-img w-[50%] relative cursor-pointer 
+                    <div className='scroll-images Mmd:overflow-x-scroll'>
+                        <div className='flex Mmd:w-[1000px] border-1 bg-grey-08 border-grey-15 rounded-12 xxl:p-20 p-10 xxl:gap-20 gap-10'>
+                            {listShowingImg.map((img, i) => (
+                                <div key={i} className={`flex-1 relative cursor-pointer 
                             after:w-full after:h-full ${activeImage === i ? 'after:hidden' : 'after:bg-[#00000080]'} after:absolute after:top-0 after:left-0 after:rounded-8`}
-                                onClick={() => setActiveImage(i)}>
-                                <img src={img} alt="property image" className='w-full rounded-8' />
-                            </div>
-                        ))}
+                                    onClick={() => setActiveImage(i)}>
+                                    <img src={img} alt="property image" className='w-full rounded-8' />
+                                </div>
+                            ))}
+                        </div>
                     </div>
                     <div className='xxl:h-[600px] xl:h-[500px] lg:h-[400px] md:h-[300px]'>
-                        <img src={original_image[activeImage]} alt="" className='rounded-10 h-full w-full object-cover' />
+                        <img src={original_image[activeImage]} alt="propertyImage" className='rounded-10 h-full w-full object-cover' />
                     </div>
                 </div>
-                <div className='mx-auto xxl:mt-30 mt-20 p-10 bg-grey-08 rounded-[100px] w-fit flex items-center justify-between gap-10'>
+                <div className='mx-auto xxl:mt-30 mt-20 p-10 bg-grey-08 sm:rounded-[100px] rounded-10 sm:w-fit flex Msm:flex-col items-center justify-between sm:gap-10 gap-16'>
                     <div className='xxl:p-14 p-10 border-1 border-grey-15 rounded-full cursor-pointer'
                         onClick={() => setActiveImage(prev => prev > 0 ? prev -= 1 : 0)}>
                         <img src={activeImage > 0 ? arrowActive : arrowDisabled} alt="arrow left control"
                             className={`${activeImage > 0 ? 'rotate-180' : ''}`} />
                     </div>
-                    <div className='flex gap-4'>
+                    <div className='flex gap-4 Msm:w-full'>
                         {listShowingImg.map((_, i) => (
-                            <div key={i} className={`${activeImage === i ? 'bg-purple-60' : 'bg-grey-30'} lg:w-[30px] w-[20px] lg:h-[10px] h-[5px] rounded-8 cursor-pointer`}
+                            <div key={i} className={`${activeImage === i ? 'bg-purple-60' : 'bg-grey-30'} lg:w-[30px] sm:w-[20px] lg:h-[10px] sm:h-[5px] w-30 h-10 flex-1 rounded-8 cursor-pointer`}
                                 onClick={() => setActiveImage(i)} />
                         ))}
                     </div>

@@ -1,9 +1,10 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { contactFormData } from '../../demoData/data'
 import SectionHeader from '../sectionHeader/SectionHeader'
 import { container, margin_top, margin_top2, padding_x, paragraph_classes } from '../../classes'
 
 const ContactForm = ({ setConnect }) => {
+    const [noEmptyInputs, setNoEmptyInputs] = useState(0)
     const [isEmpty, setIsEmpty] = useState(false)
     const [isAgree, setIsAgree] = useState(false)
     const [checkBox, setCheckBox] = useState(false)
@@ -12,22 +13,35 @@ const ContactForm = ({ setConnect }) => {
 
     const handleSendMessage = (e) => {
         e.preventDefault()
+        setNoEmptyInputs(0)
         const inputsList = inputs.current
         for (let i = 0; i < inputsList.length; i++) {
-            if (!inputsList[i].value) {
-                setIsEmpty(true)
+            if (inputsList[i].value) {
+                setNoEmptyInputs((prev) => prev = prev + 1)
             } else {
-                setIsEmpty(false)
-                setConnect(true)
-                setTimeout(() => setConnect(false), 1000)
-                inputsList[i].value = ''
+                setIsEmpty(true)
+                break
             }
         }
-
     }
+    useEffect(() => {
+        const inputsList = inputs.current
+        if (noEmptyInputs === inputsList.length) {
+            setIsEmpty(false);
+            setConnect(true);
+            setTimeout(() => {
+                setConnect(false);
+                inputsList.forEach((input) => (input.value = ''));
+            }, 1000);
+        }
+    }, [noEmptyInputs])
+
+
+
 
     return (
         <div className={`contact-form ${margin_top} ${container} ${padding_x} text-white`} id='contact_form'>
+            {console.log(noEmptyInputs)}
             <SectionHeader title={title} description={description} />
             <form className={`${margin_top2} flex flex-col xxl:gap-50 lg:gap-30 gap-20 xxl:p-[100px] lg:p-80 p-20 border-1 border-grey-15 rounded-12`}>
                 {isEmpty && (

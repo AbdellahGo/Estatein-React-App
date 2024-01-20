@@ -5,7 +5,7 @@ import HorizontalScrollBar from '../horizontalScrollBar/HorizontalScrollBar.jsx'
 import PropertiesList from '../propertiesList/PropertiesList.jsx'
 import { findRest, handleMediaChange } from '../../utils/utils'
 
-const Properties = ({ title, description, propertiesList, isLoading }) => {
+const Properties = ({ title, description, propertiesList, linkContent, link }) => {
     const [range, setRange] = useState(0) //? Represents the range of items to display
     const [finalRest, setFinalRest] = useState(null) //? Represents the final number of remaining items
     const [initNumberShowingItems, setInitNumberShowingItems] = useState(3) //? Represents the initial number of items to show
@@ -56,15 +56,13 @@ const Properties = ({ title, description, propertiesList, isLoading }) => {
         findRest(initNumberShowingItems, listItemsLength, propertiesList, setFinalRest) //? Calculates and sets the finalRest value
     }, [initShowingItems])
 
-    if (isLoading) return 'Loading...'
-
     return (
         <div className={`xxl:mt-115 xl:mt-115 mt-80 ${container} ${padding_x}`} id='properties'>
             <SectionHeader
                 title={title}
                 description={description}
-                link='/properties'
-                linkContent='View All Properties'
+                link={link}
+                linkContent={linkContent}
                 buttonStyles={`bg-grey-10 border-1 border-grey-15 Mmd:hidden ${header_button_styles}`}
             />
             <HorizontalScrollBar

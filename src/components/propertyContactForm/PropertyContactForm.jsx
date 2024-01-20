@@ -1,10 +1,11 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { container, margin_top, padding_x, paragraph_classes } from '../../classes'
 import SectionHeader from '../sectionHeader/SectionHeader'
 import { propertyContactFormData } from '../../demoData/data'
 import { whiteLocation } from '../../assets'
 
-const PropertyContactForm = ({ selectedProperty, setSend }) => {
+const PropertyContactForm = ({ selectedProperty, setSent }) => {
+    const [noEmptyInputs, setNoEmptyInputs] = useState(0)
     const [isEmpty, setIsEmpty] = useState(false)
     const [isAgree, setIsAgree] = useState(false)
     const [checkBox, setCheckBox] = useState(false)
@@ -13,19 +14,31 @@ const PropertyContactForm = ({ selectedProperty, setSend }) => {
 
     const handleSendMessage = (e) => {
         e.preventDefault()
+        setNoEmptyInputs(0)
         const inputsList = inputs.current
         for (let i = 0; i < inputsList.length; i++) {
-            if (!inputsList[i].value) {
-                setIsEmpty(true)
+            if (inputsList[i].value) {
+                setNoEmptyInputs((prev) => prev = prev + 1)
             } else {
-                setIsEmpty(false)
-                setSend(true)
-                setTimeout(() => setSend(false), 1000)
-                inputsList[i].value = ''
+                setIsEmpty(true)
+                break
             }
         }
-
     }
+    useEffect(() => {
+        const inputsList = inputs.current
+        if (noEmptyInputs === inputsList.length) {
+            setIsEmpty(false);
+            setSent(true);
+            setTimeout(() => {
+                setSent(false);
+                inputsList.forEach((input) => (input.value = ''));
+            }, 1000);
+        }
+    }, [noEmptyInputs])
+
+
+
 
     return (
         <div className={`property-contact-form ${margin_top} ${container} ${padding_x} text-white`}>
