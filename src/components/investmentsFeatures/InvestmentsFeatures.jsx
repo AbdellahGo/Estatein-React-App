@@ -1,3 +1,4 @@
+import { useInView } from "react-intersection-observer"
 import { groupLines } from "../../assets"
 import { container, margin_top, padding_x, paragraph_classes } from "../../classes"
 import { investmentsFeaturesData } from "../../demoData/data"
@@ -6,11 +7,12 @@ import SectionHeader from "../sectionHeader/SectionHeader"
 
 
 const InvestmentsFeatures = () => {
+    const [ref, inView] = useInView({ triggerOnce: true })
     const { title, title2, description, description2, investmentsFeaturesList, link } = investmentsFeaturesData
     return (
-        <div className={`investments-features ${margin_top} text-white ${container} ${padding_x}`} id="closing_success">
+        <div className={`overflow-hidden investments-features ${margin_top} text-white ${container} ${padding_x}`} id="closing_success">
             <div className="flex xl:flex-row flex-col xxl:gap-60 lg:gap-50 gap-40">
-                <div className="flex flex-col xxl:gap-50 lg:gap-40 gap-30">
+                <div ref={ref} className={`${inView ? 'slide-in-left' : ''} flex flex-col xxl:gap-50 lg:gap-40 gap-30`}>
                     <SectionHeader title={title} description={description} />
                     <div className='flex flex-col xxl:gap-30 gap-20 justify-center w-full xxl:p-50 lg:p-40 p-24 border-1 border-grey-15 xxl:rounded-12 rounded-10 bg-grey-10 '
                         style={{ backgroundImage: `url(${groupLines})`, backgroundSize: 'cover' }}>
@@ -19,7 +21,7 @@ const InvestmentsFeatures = () => {
                         <Button link={link} content='Learn More' styles='bg-grey-08 border-grey-15 border-1 w-full text-center' />
                     </div>
                 </div>
-                <div className="grid md:grid-cols-2 grid-cols-1 gap-10 rounded-12 p-10 bg-grey-10">
+                <div ref={ref} className={`${inView ? 'slide-in-right' : ''} grid md:grid-cols-2 grid-cols-1 gap-10 rounded-12 p-10 bg-grey-10`}>
                     {investmentsFeaturesList.map(({ id, icon, title, desc }) => (
                         <div key={id} className="flex flex-col xxl:gap-30 lg:gap-24 gap-16 border-1 border-grey-15 xxl:rounded-12 rounded-10 xxl:p-50 lg:p-40 p-24 bg-grey-08">
                             <div className="flex xxl:gap-20 lg:gap-16 gap-12 items-center">

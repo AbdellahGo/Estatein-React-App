@@ -2,15 +2,17 @@ import { container, margin_top, margin_top2, padding_x, paragraph_classes } from
 import SectionHeader from '../sectionHeader/SectionHeader'
 import { howItWorksData } from '../../demoData/data'
 import './styles.css'
+import { useInView } from 'react-intersection-observer'
 
 const HowItWorks = () => {
+    const [ref, inView] = useInView({ triggerOnce: true })
     const { title, description, howItWorksList } = howItWorksData
     return (
         <div className={`how-it-works ${margin_top} text-white ${container} ${padding_x}`} id='how_it_works'>
             <SectionHeader title={title} description={description} />
-            <div className={`${margin_top2} grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xxl:gap-y-50 lg:gap-y-40 xxl:gap-x-30 lg:gap-x-20 gap-30`}>
-                {howItWorksList.map(({ id, title, desc }) => (
-                    <div key={id} className='how-it-works-box'>
+            <div className={`${margin_top2} overflow-hidden grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xxl:gap-y-50 lg:gap-y-40 xxl:gap-x-30 lg:gap-x-20 gap-30`}>
+                {howItWorksList.map(({ id, title, desc }, i) => (
+                    <div ref={ref} key={id} className={`${inView ? `slide-boxes slide-box-${i + 1}` : ''} how-it-works-box`}>
                         <span className='block xxl:py-16 py-14 xxl:px-20 px-16 border-l-1 border-purple-60 xxl:text-20 text-16 font-medium'
                         >Step 0{id}</span>
                         <div className='relative xxl:p-50 lg:p-40 p-30 border-1 border-grey-15 

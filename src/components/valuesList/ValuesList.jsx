@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { margin_top2, paragraph_classes } from '../../classes'
 import Button from '../button/Button'
 import {groupLines } from '../../assets'
+import { useInView } from 'react-intersection-observer'
 
 const ValuesList = ({ title, description, content, link }) => {
-
+    const [ref, inView] = useInView({ triggerOnce: true })
     const [sliceItems, setSliceItems] = useState(3)
 
     const handleMediaChange = () => {
@@ -23,8 +24,8 @@ const ValuesList = ({ title, description, content, link }) => {
     }, [])
 
     return (
-        <div className={`${margin_top2} flex flex-col xxl:gap-30 gap-20`}>
-            <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xxl:gap-30 gap-20'>
+        <div className={`${margin_top2} overflow-hidden flex flex-col xxl:gap-30 gap-20`}>
+            <div ref={ref} className={`${inView ? 'slide-in-left' : ''} grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xxl:gap-30 gap-20`}>
                 {content.slice(0, sliceItems).map(({ id, icon, ValueTitle, desc }) => (
                     <div key={id} className='xxl:p-50 lg:p-40 p-24 xxl:rounded-12 rounded-10 border-1 border-grey-15'>
                         <div className='flex items-center xxl:gap-20 lg:gap-16 gap-10'>
@@ -39,7 +40,7 @@ const ValuesList = ({ title, description, content, link }) => {
                     </div>
                 ))}
             </div>
-            <div className='flex xl:flex-row flex-col xxl:gap-30 gap-20'>
+            <div ref={ref} className={`${inView ? 'slide-in-right' : 'hidden'} flex xl:flex-row flex-col xxl:gap-30 gap-20`}>
                 {sliceItems === 3 && (
                     <div className='xl:w-[40%] w-full xxl:p-50 lg:p-40 p-24 xxl:rounded-12 rounded-10 border-1 border-grey-15'>
                         <div className='flex items-center xxl:gap-20 lg:gap-16 gap-10'>

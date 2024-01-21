@@ -3,8 +3,10 @@ import { container, margin_top, padding_x, paragraph_classes } from '../../class
 import SectionHeader from '../sectionHeader/SectionHeader'
 import { propertyContactFormData } from '../../demoData/data'
 import { whiteLocation } from '../../assets'
+import { useInView } from 'react-intersection-observer'
 
 const PropertyContactForm = ({ selectedProperty, setSent }) => {
+    const [ref, inView] = useInView({ triggerOnce: true })
     const [noEmptyInputs, setNoEmptyInputs] = useState(0)
     const [isEmpty, setIsEmpty] = useState(false)
     const [isAgree, setIsAgree] = useState(false)
@@ -42,11 +44,11 @@ const PropertyContactForm = ({ selectedProperty, setSent }) => {
 
     return (
         <div className={`property-contact-form ${margin_top} ${container} ${padding_x} text-white`}>
-            <div className='flex md:flex-row flex-col xxl:gap-[100px] lg:gap-80 gap-40'>
-                <div className='md:w-[35%] w-full'>
+            <div className='overflow-hidden flex md:flex-row flex-col xxl:gap-[100px] lg:gap-80 gap-40'>
+                <div ref={ref} className={`${inView ? 'slide-in-left' : ''} md:w-[35%] w-full`}>
                     <SectionHeader title={title} description={description} />
                 </div>
-                <form className='md:w-[65%] w-full xxl:p-50 lg:p-40 p-20 border-1 border-grey-15 rounded-12'>
+                <form ref={ref} className={`${inView ? 'slide-in-right' : ''} md:w-[65%] w-full xxl:p-50 lg:p-40 p-20 border-1 border-grey-15 rounded-12`}>
                     {isEmpty && (
                         <p className='lg:mb-30 mb-20 bg-grey-10 p-10 rounded-8 border-1 border-grey-15 xxl:text-20 text-16 font-semibold'>Please fill out the fields to submit</p>
                     )}

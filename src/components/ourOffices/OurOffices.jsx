@@ -2,8 +2,10 @@ import React, { useState } from 'react'
 import { container, margin_top, margin_top2, padding_x, paragraph_classes } from '../../classes'
 import { ourOfficesData } from '../../demoData/data'
 import SectionHeader from '../sectionHeader/SectionHeader'
+import { useInView } from 'react-intersection-observer'
 
 const OurOffices = () => {
+    const [ref, inView] = useInView({ triggerOnce: true })
     const [active, setActive] = useState('all')
     const { title, description, filter, officesList } = ourOfficesData
     return (
@@ -21,9 +23,9 @@ const OurOffices = () => {
                         </button>
                     ))}
                 </div>
-                <div className='xxl:mt-50 lg:mt-40 mt-30 flex md:flex-row flex-col xxl:gap-30 gap-20'>
-                    {officesList.map(({ id, type, title, desc, contact, link, value }) => (
-                        <div key={id} className={`border-1 border-grey-15 xxl:rounded-12 rounded-8 xxl:p-50 lg:p-40 p-24 bg-grey-08
+                <div className='overflow-hidden xxl:mt-50 lg:mt-40 mt-30 flex md:flex-row flex-col xxl:gap-30 gap-20'>
+                    {officesList.map(({ id, type, title, desc, contact, link, value }, i) => (
+                        <div ref={ref} key={id} className={`${inView ? `slide-boxes-to-top slide-box-${i + 1}` : ''} border-1 border-grey-15 xxl:rounded-12 rounded-8 xxl:p-50 lg:p-40 p-24 bg-grey-08
                         ${active === 'all' ? 'flex flex-1' : (value === active ? 'flex lg:w-[50%] w-full' : 'hidden')} flex-col justify-between xxl:gap-40 lg:gap-30 gap-24`}>
                             <div>
                                 <p className={`${paragraph_classes} text-white`}>{type}</p>

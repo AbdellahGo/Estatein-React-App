@@ -4,7 +4,6 @@ import { heroSectionData } from '../../demoData/data'
 import { arrowRightTop, buildings } from '../../assets'
 import { NavLink } from 'react-router-dom'
 import ServicesList from '../servicesList/ServicesList'
-import './styles.css'
 import Button from '../button/Button'
 
 

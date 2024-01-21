@@ -1,13 +1,15 @@
 import React, { useState } from 'react'
 import { paragraph_classes } from '../../classes'
+import { useInView } from 'react-intersection-observer'
 
 const FAQList = ({ faqContainer, content }) => {
+  const [ref, inView] = useInView({ triggerOnce: true })
   const [isReadMore, setIsReadMore] = useState(null)
   return (
     <div ref={faqContainer}
       className="faq-list grid lg:grid-cols-3 md:grid-cols-2 xxl:gap-30 md:gap-20 gap-30">
-      {content.map(({ id, title, desc }) => (
-        <div key={id} className='xxl:p-50 xl:p-40 p-30 flex justify-between flex-col xxl:gap-30 xl:gap-24 gap-20 xxl:rounded-12 rounded-10 border-1 border-grey-15 bg-grey-08 text-white'>
+      {content.map(({ id, title, desc }, i) => (
+        <div ref={ref} key={id} className={`${inView ? `slide-boxes slide-box-${i + 1}` : ''} xxl:p-50 xl:p-40 p-30 flex justify-between flex-col xxl:gap-30 xl:gap-24 gap-20 xxl:rounded-12 rounded-10 border-1 border-grey-15 bg-grey-08 text-white`}>
           <h2 className='xxl:text-24 md:text-20 text-18 text-white'>{title}</h2>
           <p className={`${paragraph_classes}`}>{isReadMore === id ? desc : `${desc.substring(0, 90)}...`}</p>
           <button onClick={() => setIsReadMore(isReadMore === id ? null : id)}

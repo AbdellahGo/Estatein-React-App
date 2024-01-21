@@ -3,8 +3,10 @@ import SectionHeader from '../sectionHeader/SectionHeader'
 import { ourTeamData } from '../../demoData/data'
 import { send, twitter } from '../../assets'
 import { useRef } from 'react'
+import { useInView } from 'react-intersection-observer'
 
 const OurTeam = ({ setSendMessage }) => {
+    const [ref, inView] = useInView({triggerOnce: true})
     const { title, description, ourTeamList } = ourTeamData
     const inputsText = useRef([])
 
@@ -20,9 +22,9 @@ const OurTeam = ({ setSendMessage }) => {
     return (
         <div className={`our-team ${margin_top} text-white ${container} ${padding_x}`} id='our_team'>
             <SectionHeader title={title} description={description} />
-            <div className={`${margin_top2} grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 xxl:gap-30 gap-20`}>
+            <div className={`${margin_top2} overflow-hidden grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 xxl:gap-30 gap-20`}>
                 {ourTeamList.map(({ id, personName, job, image }, i) => (
-                    <div key={id} className='xxl:p-30 lg:p-24 p-20 border-1 border-grey-15 rounded-12 flex flex-col lg:gap-50 md:gap-40 gap-20 relative'>
+                    <div ref={ref} key={id} className={`${inView ? `slide-boxes-to-top slide-box-${i + 1}` : ''} xxl:p-30 lg:p-24 p-20 border-1 border-grey-15 rounded-12 flex flex-col lg:gap-50 md:gap-40 gap-20 relative`}>
                         <img src={image} alt="Image of a person" className='w-full' />
                         <div>
                             <a href='https://twitter.com/home'

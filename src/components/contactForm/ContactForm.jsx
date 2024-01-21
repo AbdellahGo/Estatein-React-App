@@ -41,7 +41,6 @@ const ContactForm = ({ setConnect }) => {
 
     return (
         <div className={`contact-form ${margin_top} ${container} ${padding_x} text-white`} id='contact_form'>
-            {console.log(noEmptyInputs)}
             <SectionHeader title={title} description={description} />
             <form className={`${margin_top2} flex flex-col xxl:gap-50 lg:gap-30 gap-20 xxl:p-[100px] lg:p-80 p-20 border-1 border-grey-15 rounded-12`}>
                 {isEmpty && (
