@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react'
-import { CTA, PropertiesForm, PropertiesHeader, SearchAndFilters, SearchedProperty } from '../../components'
+import { CTA, Error, PropertiesForm, PropertiesHeader, SearchAndFilters, SearchedProperty } from '../../components'
 import { ThemeContext } from '../../contextApi'
 import { useGetPropertiesListByFiltersQuery, useGetPropertiesListBySearchTermQuery } from '../../redux/RTKApis/propertiesApi'
 import { searchedPropertyData } from '../../demoData/data'
@@ -14,8 +14,8 @@ const Properties = () => {
   const [propertySize, setPropertySize] = useState('')
   const [status, setStatus] = useState('sale')
   const filters = { area, type, minimum_price: pricingRange.split('|')[0], maximum_price: pricingRange.split('|')[1], area_min: propertySize.split('|')[0], area_max: propertySize.split('|')[1], status }
-  const { data: filterData, isFetching: isFetchingFilters } = useGetPropertiesListByFiltersQuery(filters)
-  const { data: searchedData, isFetching: isFetchingSelectedSearch } = useGetPropertiesListBySearchTermQuery(selectedSearch)
+  const { data: filterData, isFetching: isFetchingFilters, error: filtersError } = useGetPropertiesListByFiltersQuery(filters)
+  const { data: searchedData, isFetching: isFetchingSelectedSearch, error: SearchError } = useGetPropertiesListBySearchTermQuery(selectedSearch)
   const { navBarHeight } = useContext(ThemeContext)
   const { title, description } = searchedPropertyData
 
@@ -45,12 +45,12 @@ const Properties = () => {
   return (
     <main>
       <div style={{ paddingTop: `${navBarHeight}px` }}>
-      {sent && <Alert content='Your data has been sent successfully' />}
+        {sent && <Alert content='Your data has been sent successfully' />}
         <PropertiesHeader />
         <SearchAndFilters handleChange={handleChange} setSelectedSearch={setSelectedSearch} />
-        {isFetchingFilters || isFetchingSelectedSearch ? <Loader title={title} description={description} />
-          : <SearchedProperty title={title} description={description} propertiesList={searchedData ? searchedData?.listing : filterData?.listing} />}
-        <PropertiesForm setSent={setSent}/>
+        {filtersError || SearchError ? <Error content='Sorry, the number of Requests for this month has ended' title={title} description={description}/> : (isFetchingFilters || isFetchingSelectedSearch ? <Loader title={title} description={description} />
+          : <SearchedProperty title={title} description={description} propertiesList={searchedData ? searchedData?.listing : filterData?.listing} />)}
+        <PropertiesForm setSent={setSent} />
         <CTA />
       </div>
     </main>

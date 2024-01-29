@@ -5,7 +5,7 @@ import { paragraph_classes } from '../../classes'
 const PropertyImages = ({ content }) => {
     const [activeImage, setActiveImage] = useState(0)
     const { title, displayable_address, price, original_image } = content
-    const listShowingImg = original_image.slice(0, 9)
+    const listShowingImg = original_image?.slice(0, 9)
     return (
         <div className='property-images text-white'>
             <div className='flex flex-wrap lg:gap-50 gap-10 justify-between sm:items-center items-end'>
@@ -26,9 +26,9 @@ const PropertyImages = ({ content }) => {
                 <div className='flex md:flex-col flex-col-reverse xxl:gap-30 gap-20'>
                     <div className='scroll-images Mmd:overflow-x-scroll'>
                         <div className='flex Mmd:w-[1000px] border-1 bg-grey-08 border-grey-15 rounded-12 xxl:p-20 p-10 xxl:gap-20 gap-10'>
-                            {listShowingImg.map((img, i) => (
-                                <div key={i} className={`flex-1 relative cursor-pointer 
-                            after:w-full after:h-full ${activeImage === i ? 'after:hidden' : 'after:bg-[#00000080]'} after:absolute after:top-0 after:left-0 after:rounded-8`}
+                            {listShowingImg?.map((img, i) => (
+                                <div key={i} className={`flex-1 relative cursor-pointer max-w-[135px]
+                                    after:w-full after:h-full ${activeImage === i ? 'after:hidden' : 'after:bg-[#00000080]'} after:absolute after:top-0 after:left-0 after:rounded-8`}
                                     onClick={() => setActiveImage(i)}>
                                     <img src={img} alt="property image" className='w-full rounded-8' />
                                 </div>
@@ -46,7 +46,7 @@ const PropertyImages = ({ content }) => {
                             className={`${activeImage > 0 ? 'rotate-180' : ''}`} />
                     </div>
                     <div className='flex gap-4 Msm:w-full'>
-                        {listShowingImg.map((_, i) => (
+                        {listShowingImg?.map((_, i) => (
                             <div key={i} className={`${activeImage === i ? 'bg-purple-60' : 'bg-grey-30'} lg:w-[30px] sm:w-[20px] lg:h-[10px] sm:h-[5px] w-30 h-10 flex-1 rounded-8 cursor-pointer`}
                                 onClick={() => setActiveImage(i)} />
                         ))}

@@ -74,6 +74,7 @@ import factory from './factory.png'
 import greyBox from './greyBox.png'
 import greyLocation from './greyLocation.png'
 import greyMoney from './greyMoney.png'
+import wondered from './wondered.png'
 
 
 export {
@@ -84,5 +85,5 @@ export {
     checkerboard, chessBoardPlus, circularStatistics, dataBase, fire, lamp, magicStars, magnifier, signal, tags,
     search, miniLogo, location, phone, purpleMessage, whiteLocation, whiteMessage, whitePhone,
     worldImage1, worldImage2, worldImage3, worldImage4, worldImage5, worldImage6, groupLines2, area, greyBed,
-    greyBathroom, whiteLightning, key, factory, greyBox, greyLocation, greyMoney,
+    greyBathroom, whiteLightning, key, factory, greyBox, greyLocation, greyMoney, wondered
 }

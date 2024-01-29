@@ -11,8 +11,8 @@ const SearchedProperty = ({ title, description, propertiesList }) => {
     const [initNumberShowingItems, setInitNumberShowingItems] = useState(3)
     const [initShowingItems, setInitShowingItems] = useState(initNumberShowingItems)
     const propertiesContainer = useRef(null)
-    const listItemsLength = propertiesList.length
-    const restOfListItems = propertiesList.slice(initShowingItems).length 
+    const listItemsLength = propertiesList?.length
+    const restOfListItems = propertiesList?.slice(initShowingItems).length 
 
 
     const slidLeft = () => {
@@ -74,7 +74,7 @@ const SearchedProperty = ({ title, description, propertiesList }) => {
                 component={
                     <PropertiesList
                         propertiesContainer={propertiesContainer}
-                        content={propertiesList.slice(range, initShowingItems)}
+                        content={propertiesList?.slice(range, initShowingItems)}
                     />
                 }
             />

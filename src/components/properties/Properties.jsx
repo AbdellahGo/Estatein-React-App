@@ -11,8 +11,8 @@ const Properties = ({ title, description, propertiesList, linkContent, link }) =
     const [initNumberShowingItems, setInitNumberShowingItems] = useState(3) //? Represents the initial number of items to show
     const [initShowingItems, setInitShowingItems] = useState(initNumberShowingItems) //? Represents the current number of items being shown
     const propertiesContainer = useRef(null) //? References the properties container element
-    const listItemsLength = propertiesList.length // ?Stores the length of the propertiesList array
-    const restOfListItems = propertiesList.slice(initShowingItems).length //? Stores the length of the remaining propertiesList items
+    const listItemsLength = propertiesList?.length // ?Stores the length of the propertiesList array
+    const restOfListItems = propertiesList?.slice(initShowingItems).length //? Stores the length of the remaining propertiesList items
 
 
 
@@ -77,7 +77,7 @@ const Properties = ({ title, description, propertiesList, linkContent, link }) =
                 component={
                     <PropertiesList
                         propertiesContainer={propertiesContainer}
-                        content={propertiesList.slice(range, initShowingItems)}
+                        content={propertiesList?.slice(range, initShowingItems)}
                     />
                 }
             />
